@@ -2,12 +2,12 @@
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "en", "es", "undefined" ],
-    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.ejemplo.org/georeligion", "http://www.w3.org/2001/XMLSchema" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "https://onto.digitalhumanities.digital", "http://www.w3.org/2001/XMLSchema" ],
     "title" : {
       "en" : "Ontology on religious orders in the Early modern period",
       "es" : "Ontología de órdenes religiosas en la Edad Moderna"
     },
-    "iri" : "http://www.ejemplo.org/georeligion",
+    "iri" : "https://onto.digitalhumanities.digital",
     "version" : "0.1",
     "author" : [ "Igor Sosa Mayor" ],
     "other" : {
@@ -20,7 +20,7 @@
       "created" : [ {
         "identifier" : "created",
         "language" : "undefined",
-        "value" : "2025-07-09+06:00",
+        "value" : "\"2025-07-09+06:00\"",
         "type" : "label"
       } ],
       "versionInfo" : [ {
@@ -31,83 +31,98 @@
       } ],
       "title" : [ {
         "identifier" : "title",
-        "language" : "en",
-        "value" : "Ontology on religious orders in the Early modern period",
+        "language" : "es",
+        "value" : "Ontología de órdenes religiosas en la Edad Moderna",
         "type" : "label"
       }, {
         "identifier" : "title",
-        "language" : "es",
-        "value" : "Ontología de órdenes religiosas en la Edad Moderna",
+        "language" : "en",
+        "value" : "Ontology on religious orders in the Early modern period",
         "type" : "label"
       } ]
     }
   },
   "namespace" : [ ],
   "class" : [ {
-    "id" : "9",
-    "type" : "owl:Class"
-  }, {
-    "id" : "31",
-    "type" : "owl:Class"
-  }, {
-    "id" : "36",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "37",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "20",
-    "type" : "owl:Thing"
-  }, {
-    "id" : "11",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "38",
-    "type" : "owl:Class"
-  }, {
-    "id" : "28",
-    "type" : "owl:Class"
-  }, {
-    "id" : "7",
+    "id" : "0",
     "type" : "owl:Class"
   }, {
     "id" : "5",
     "type" : "owl:Class"
   }, {
-    "id" : "8",
+    "id" : "4",
     "type" : "owl:Class"
-  }, {
-    "id" : "45",
-    "type" : "rdfs:Datatype"
   }, {
     "id" : "15",
     "type" : "owl:Class"
   }, {
-    "id" : "51",
+    "id" : "7",
     "type" : "owl:Class"
   }, {
-    "id" : "54",
+    "id" : "32",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "20",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "16",
     "type" : "owl:Class"
   }, {
-    "id" : "42",
+    "id" : "35",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "11",
     "type" : "owl:Class"
   }, {
     "id" : "26",
     "type" : "owl:Class"
   }, {
-    "id" : "35",
+    "id" : "31",
     "type" : "owl:Class"
   }, {
-    "id" : "57",
+    "id" : "53",
     "type" : "owl:Class"
   }, {
-    "id" : "4",
+    "id" : "34",
     "type" : "owl:Class"
   }, {
-    "id" : "1",
+    "id" : "12",
     "type" : "owl:Class"
   }, {
-    "id" : "43",
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
     "type" : "owl:Class"
   }, {
     "id" : "55",
@@ -116,64 +131,82 @@
     "id" : "30",
     "type" : "owl:Class"
   }, {
-    "id" : "18",
+    "id" : "73",
     "type" : "owl:Class"
   }, {
-    "id" : "2",
+    "id" : "1",
     "type" : "owl:Class"
   }, {
-    "id" : "24",
-    "type" : "owl:Class"
-  }, {
-    "id" : "13",
-    "type" : "owl:Class"
-  }, {
-    "id" : "63",
-    "type" : "owl:Class"
-  }, {
-    "id" : "23",
-    "type" : "owl:Class"
-  }, {
-    "id" : "17",
-    "type" : "owl:Class"
-  }, {
-    "id" : "32",
+    "id" : "42",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
-    "iri" : "http://www.ejemplo.org/georeligion/ObjetoLiturgico",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
+    "iri" : "https://onto.digitalhumanities.digital/MiembroOrden",
+    "baseIri" : "https://onto.digitalhumanities.digital",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MiembroOrden"
+    },
+    "comment" : {
+      "es" : "Hombre o mujer miembro de una Orden religiosa"
+    },
+    "attributes" : [ "external" ],
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://onto.digitalhumanities.digital/Fundar",
+    "baseIri" : "https://onto.digitalhumanities.digital",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fundar"
+    },
+    "comment" : {
+      "es" : "Acción de fundar un convento, iglesia u otra institución vinculada a una Orden religiosa."
+    },
+    "attributes" : [ "external" ],
+    "id" : "5",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://onto.digitalhumanities.digital/Evento",
+    "baseIri" : "https://onto.digitalhumanities.digital",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Evento"
+    },
+    "subClasses" : [ "9", "10", "5", "11", "12", "13", "3", "14" ],
+    "attributes" : [ "external" ],
+    "id" : "4"
+  }, {
+    "iri" : "https://onto.digitalhumanities.digital/ObjetoLiturgico",
+    "baseIri" : "https://onto.digitalhumanities.digital",
     "instances" : 0,
     "label" : {
       "IRI-based" : "ObjetoLiturgico"
     },
     "attributes" : [ "external" ],
-    "id" : "9",
-    "superClasses" : [ "2" ]
+    "id" : "15",
+    "superClasses" : [ "16" ]
   }, {
-    "iri" : "http://www.ejemplo.org/georeligion/CentroMision",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
+    "iri" : "https://onto.digitalhumanities.digital/Lugar",
+    "baseIri" : "https://onto.digitalhumanities.digital",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "CentroMision"
+      "IRI-based" : "Lugar"
     },
-    "comment" : {
-      "es" : "Centro desde el que se organizan misiones católicas (doctrina dominica, etc.)."
-    },
+    "subClasses" : [ "29", "30", "31" ],
     "attributes" : [ "external" ],
-    "id" : "31",
-    "superClasses" : [ "32" ]
+    "id" : "7"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "36",
+    "id" : "32",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "37",
+    "id" : "33",
     "label" : {
       "IRI-based" : "dateTime"
     }
@@ -185,41 +218,25 @@
       "undefined" : "Thing"
     }
   }, {
+    "iri" : "https://onto.digitalhumanities.digital/ObjetoMaterial",
+    "baseIri" : "https://onto.digitalhumanities.digital",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ObjetoMaterial"
+    },
+    "subClasses" : [ "25", "34", "15" ],
+    "attributes" : [ "external" ],
+    "id" : "16"
+  }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "11",
+    "id" : "35",
     "label" : {
       "IRI-based" : "boolean"
     }
   }, {
-    "iri" : "http://www.ejemplo.org/georeligion/Misionero",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Misionero"
-    },
-    "comment" : {
-      "es" : "Misionero perteneciente a una Orden religiosa."
-    },
-    "attributes" : [ "external" ],
-    "id" : "38",
-    "superClasses" : [ "17" ]
-  }, {
-    "iri" : "http://www.ejemplo.org/georeligion/Nacimiento",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Nacimiento"
-    },
-    "comment" : {
-      "es" : "Evento de nacimineto de una persona."
-    },
-    "attributes" : [ "external" ],
-    "id" : "28",
-    "superClasses" : [ "5" ]
-  }, {
-    "iri" : "http://www.ejemplo.org/georeligion/ObraEscrita",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
+    "iri" : "https://onto.digitalhumanities.digital/ObraEscrita",
+    "baseIri" : "https://onto.digitalhumanities.digital",
     "instances" : 0,
     "label" : {
       "IRI-based" : "ObraEscrita"
@@ -228,154 +245,11 @@
       "es" : "Obra escrita de cualquier tipo, formato y tema (publicada, en manuscrito, etc.)"
     },
     "attributes" : [ "external" ],
-    "id" : "7",
-    "superClasses" : [ "2" ]
+    "id" : "25",
+    "superClasses" : [ "16" ]
   }, {
-    "iri" : "http://www.ejemplo.org/georeligion/Evento",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Evento"
-    },
-    "subClasses" : [ "28", "26", "35", "30", "15", "13", "4", "1" ],
-    "attributes" : [ "external" ],
-    "id" : "5"
-  }, {
-    "iri" : "http://www.ejemplo.org/georeligion/Lengua",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Lengua"
-    },
-    "individuals" : [ {
-      "iri" : "http://www.ejemplo.org/georeligion/Frances",
-      "baseIri" : "http://www.ejemplo.org/georeligion",
-      "labels" : {
-        "IRI-based" : "Frances"
-      }
-    }, {
-      "iri" : "http://www.ejemplo.org/georeligion/Espanol",
-      "baseIri" : "http://www.ejemplo.org/georeligion",
-      "labels" : {
-        "IRI-based" : "Espanol"
-      }
-    }, {
-      "iri" : "http://www.ejemplo.org/georeligion/Latin",
-      "baseIri" : "http://www.ejemplo.org/georeligion",
-      "labels" : {
-        "IRI-based" : "Latin"
-      }
-    }, {
-      "iri" : "http://www.ejemplo.org/georeligion/Maya",
-      "baseIri" : "http://www.ejemplo.org/georeligion",
-      "labels" : {
-        "IRI-based" : "Maya"
-      }
-    } ],
-    "comment" : {
-      "es" : "Lengua en la que está producida una obra"
-    },
-    "attributes" : [ "external" ],
-    "id" : "8"
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "45",
-    "label" : {
-      "IRI-based" : "boolean"
-    }
-  }, {
-    "iri" : "http://www.ejemplo.org/georeligion/Viaje",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Viaje"
-    },
-    "comment" : {
-      "es" : "Viaje de una o varias personas de un origen a un destino."
-    },
-    "attributes" : [ "external" ],
-    "id" : "15",
-    "superClasses" : [ "5" ]
-  }, {
-    "iri" : "http://www.ejemplo.org/georeligion/ZonaMision",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "ZonaMision"
-    },
-    "comment" : {
-      "es" : "Lugar geográfico de misión de entidad geográfica variable."
-    },
-    "attributes" : [ "external" ],
-    "id" : "51",
-    "superClasses" : [ "18" ]
-  }, {
-    "iri" : "http://www.ejemplo.org/georeligion/CentroCulto",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "CentroCulto"
-    },
-    "subClasses" : [ "55" ],
-    "comment" : {
-      "es" : "Centro de culto de una religión (iglesia cristiana, mezquita musulmana, etc.)"
-    },
-    "attributes" : [ "external" ],
-    "id" : "54",
-    "superClasses" : [ "32" ]
-  }, {
-    "iri" : "http://www.ejemplo.org/georeligion/Convento",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Convento"
-    },
-    "comment" : {
-      "es" : "Centro conventual de una orden religiosa."
-    },
-    "attributes" : [ "external" ],
-    "id" : "42",
-    "superClasses" : [ "18" ]
-  }, {
-    "iri" : "http://www.ejemplo.org/georeligion/HacerProfesion",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "HacerProfesion"
-    },
-    "comment" : {
-      "es" : "Acción de hacer profesión en una Orden religiosa."
-    },
-    "attributes" : [ "external" ],
-    "id" : "26",
-    "superClasses" : [ "5" ]
-  }, {
-    "iri" : "http://www.ejemplo.org/georeligion/IniciarNoviciado",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "IniciarNoviciado"
-    },
-    "comment" : {
-      "es" : "Acción de iniciar el noviciado en una Orden religiosa."
-    },
-    "attributes" : [ "external" ],
-    "id" : "35",
-    "superClasses" : [ "5" ]
-  }, {
-    "iri" : "http://www.ejemplo.org/georeligion/Reliquia",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Reliquia"
-    },
-    "attributes" : [ "external" ],
-    "id" : "57",
-    "superClasses" : [ "2" ]
-  }, {
-    "iri" : "http://www.ejemplo.org/georeligion/Muerte",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
+    "iri" : "https://onto.digitalhumanities.digital/Muerte",
+    "baseIri" : "https://onto.digitalhumanities.digital",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Muerte"
@@ -384,11 +258,24 @@
       "es" : "Evento de muerte de una persona"
     },
     "attributes" : [ "external" ],
-    "id" : "4",
-    "superClasses" : [ "5" ]
+    "id" : "10",
+    "superClasses" : [ "4" ]
   }, {
-    "iri" : "http://www.ejemplo.org/georeligion/ProducirObra",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
+    "iri" : "https://onto.digitalhumanities.digital/Nacimiento",
+    "baseIri" : "https://onto.digitalhumanities.digital",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Nacimiento"
+    },
+    "comment" : {
+      "es" : "Evento de nacimineto de una persona."
+    },
+    "attributes" : [ "external" ],
+    "id" : "14",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://onto.digitalhumanities.digital/ProducirObra",
+    "baseIri" : "https://onto.digitalhumanities.digital",
     "instances" : 0,
     "label" : {
       "IRI-based" : "ProducirObra"
@@ -397,11 +284,169 @@
       "es" : "Evento de producir una obra por parte de una o varias personas."
     },
     "attributes" : [ "external" ],
-    "id" : "1",
-    "superClasses" : [ "5" ]
+    "id" : "9",
+    "superClasses" : [ "4" ]
   }, {
-    "iri" : "http://www.ejemplo.org/georeligion/ProvinciaOrden",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "40",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "https://onto.digitalhumanities.digital/Viaje",
+    "baseIri" : "https://onto.digitalhumanities.digital",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Viaje"
+    },
+    "comment" : {
+      "es" : "Viaje de una o varias personas de un origen a un destino."
+    },
+    "attributes" : [ "external" ],
+    "id" : "11",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://onto.digitalhumanities.digital/Lengua",
+    "baseIri" : "https://onto.digitalhumanities.digital",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Lengua"
+    },
+    "individuals" : [ {
+      "iri" : "https://onto.digitalhumanities.digital/Latin",
+      "baseIri" : "https://onto.digitalhumanities.digital",
+      "labels" : {
+        "IRI-based" : "Latin"
+      }
+    }, {
+      "iri" : "https://onto.digitalhumanities.digital/Maya",
+      "baseIri" : "https://onto.digitalhumanities.digital",
+      "labels" : {
+        "IRI-based" : "Maya"
+      }
+    }, {
+      "iri" : "https://onto.digitalhumanities.digital/Espanol",
+      "baseIri" : "https://onto.digitalhumanities.digital",
+      "labels" : {
+        "IRI-based" : "Espanol"
+      }
+    }, {
+      "iri" : "https://onto.digitalhumanities.digital/Frances",
+      "baseIri" : "https://onto.digitalhumanities.digital",
+      "labels" : {
+        "IRI-based" : "Frances"
+      }
+    } ],
+    "comment" : {
+      "es" : "Lengua en la que está producida una obra"
+    },
+    "attributes" : [ "external" ],
+    "id" : "26"
+  }, {
+    "iri" : "https://onto.digitalhumanities.digital/ZonaMision",
+    "baseIri" : "https://onto.digitalhumanities.digital",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ZonaMision"
+    },
+    "comment" : {
+      "es" : "Lugar geográfico de misión de entidad geográfica variable."
+    },
+    "attributes" : [ "external" ],
+    "id" : "31",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://onto.digitalhumanities.digital/OrdenReligiosa",
+    "baseIri" : "https://onto.digitalhumanities.digital",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OrdenReligiosa"
+    },
+    "comment" : {
+      "es" : "Institución de orden religiosa en sentido amplio (católica, budista, musulmana)."
+    },
+    "attributes" : [ "external" ],
+    "id" : "53",
+    "superClasses" : [ "42" ]
+  }, {
+    "iri" : "https://onto.digitalhumanities.digital/Reliquia",
+    "baseIri" : "https://onto.digitalhumanities.digital",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Reliquia"
+    },
+    "attributes" : [ "external" ],
+    "id" : "34",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "https://onto.digitalhumanities.digital/Abandonar",
+    "baseIri" : "https://onto.digitalhumanities.digital",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Abandonar"
+    },
+    "comment" : {
+      "es" : "Acción de abanondar una Orden religiosa, una misión, etc."
+    },
+    "attributes" : [ "external" ],
+    "id" : "12",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://onto.digitalhumanities.digital/IniciarNoviciado",
+    "baseIri" : "https://onto.digitalhumanities.digital",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IniciarNoviciado"
+    },
+    "comment" : {
+      "es" : "Acción de iniciar el noviciado en una Orden religiosa."
+    },
+    "attributes" : [ "external" ],
+    "id" : "13",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://onto.digitalhumanities.digital/HacerProfesion",
+    "baseIri" : "https://onto.digitalhumanities.digital",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HacerProfesion"
+    },
+    "comment" : {
+      "es" : "Acción de hacer profesión en una Orden religiosa."
+    },
+    "attributes" : [ "external" ],
+    "id" : "3",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://onto.digitalhumanities.digital/Misionero",
+    "baseIri" : "https://onto.digitalhumanities.digital",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Misionero"
+    },
+    "comment" : {
+      "es" : "Misionero perteneciente a una Orden religiosa."
+    },
+    "attributes" : [ "external" ],
+    "id" : "64",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://onto.digitalhumanities.digital/CentroMision",
+    "baseIri" : "https://onto.digitalhumanities.digital",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CentroMision"
+    },
+    "comment" : {
+      "es" : "Centro desde el que se organizan misiones católicas (doctrina dominica, etc.)."
+    },
+    "attributes" : [ "external" ],
+    "id" : "52",
+    "superClasses" : [ "42" ]
+  }, {
+    "iri" : "https://onto.digitalhumanities.digital/ProvinciaOrden",
+    "baseIri" : "https://onto.digitalhumanities.digital",
     "instances" : 0,
     "label" : {
       "IRI-based" : "ProvinciaOrden"
@@ -410,11 +455,21 @@
       "es" : "Provncia o estructuras institucionales geográficas similares de las órdenes religiosas católicas."
     },
     "attributes" : [ "external" ],
-    "id" : "43",
-    "superClasses" : [ "32" ]
+    "id" : "50",
+    "superClasses" : [ "42" ]
   }, {
-    "iri" : "http://www.ejemplo.org/georeligion/Iglesia",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
+    "iri" : "https://onto.digitalhumanities.digital/Ciudad",
+    "baseIri" : "https://onto.digitalhumanities.digital",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ciudad"
+    },
+    "attributes" : [ "external" ],
+    "id" : "29",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://onto.digitalhumanities.digital/Iglesia",
+    "baseIri" : "https://onto.digitalhumanities.digital",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Iglesia"
@@ -424,164 +479,112 @@
     },
     "attributes" : [ "external" ],
     "id" : "55",
-    "superClasses" : [ "54" ]
+    "superClasses" : [ "73" ]
   }, {
-    "iri" : "http://www.ejemplo.org/georeligion/Abandonar",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
+    "iri" : "https://onto.digitalhumanities.digital/Convento",
+    "baseIri" : "https://onto.digitalhumanities.digital",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Abandonar"
+      "IRI-based" : "Convento"
     },
     "comment" : {
-      "es" : "Acción de abanondar una Orden religiosa, una misión, etc."
+      "es" : "Centro conventual de una orden religiosa."
     },
     "attributes" : [ "external" ],
     "id" : "30",
-    "superClasses" : [ "5" ]
+    "superClasses" : [ "7" ]
   }, {
-    "iri" : "http://www.ejemplo.org/georeligion/Lugar",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
+    "iri" : "https://onto.digitalhumanities.digital/CentroCulto",
+    "baseIri" : "https://onto.digitalhumanities.digital",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Lugar"
+      "IRI-based" : "CentroCulto"
     },
-    "subClasses" : [ "63", "42", "51" ],
-    "attributes" : [ "external" ],
-    "id" : "18"
-  }, {
-    "iri" : "http://www.ejemplo.org/georeligion/ObjetoMaterial",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "ObjetoMaterial"
-    },
-    "subClasses" : [ "57", "9", "7" ],
-    "attributes" : [ "external" ],
-    "id" : "2"
-  }, {
-    "iri" : "http://www.ejemplo.org/georeligion/OrdenReligiosa",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "OrdenReligiosa"
-    },
+    "subClasses" : [ "55" ],
     "comment" : {
-      "es" : "Institución de orden religiosa en sentido amplio (católica, budista, musulmana)."
+      "es" : "Centro de culto de una religión (iglesia cristiana, mezquita musulmana, etc.)"
     },
     "attributes" : [ "external" ],
-    "id" : "24",
-    "superClasses" : [ "32" ]
+    "id" : "73",
+    "superClasses" : [ "42" ]
   }, {
-    "iri" : "http://www.ejemplo.org/georeligion/Fundar",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Fundar"
-    },
-    "comment" : {
-      "es" : "Acción de fundar un convento, iglesia u otra institución vinculada a una Orden religiosa."
-    },
-    "attributes" : [ "external" ],
-    "id" : "13",
-    "superClasses" : [ "5" ]
-  }, {
-    "iri" : "http://www.ejemplo.org/georeligion/Ciudad",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Ciudad"
-    },
-    "attributes" : [ "external" ],
-    "id" : "63",
-    "superClasses" : [ "18" ]
-  }, {
-    "iri" : "http://www.ejemplo.org/georeligion/MiembroOrden",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "MiembroOrden"
-    },
-    "comment" : {
-      "es" : "Hombre o mujer miembro de una Orden religiosa"
-    },
-    "attributes" : [ "external" ],
-    "id" : "23",
-    "superClasses" : [ "17" ]
-  }, {
-    "iri" : "http://www.ejemplo.org/georeligion/Persona",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
+    "iri" : "https://onto.digitalhumanities.digital/Persona",
+    "baseIri" : "https://onto.digitalhumanities.digital",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Persona"
     },
-    "subClasses" : [ "23", "38" ],
+    "subClasses" : [ "0", "64" ],
     "attributes" : [ "external" ],
-    "id" : "17"
+    "id" : "1"
   }, {
-    "iri" : "http://www.ejemplo.org/georeligion/Institucion",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
+    "iri" : "https://onto.digitalhumanities.digital/Institucion",
+    "baseIri" : "https://onto.digitalhumanities.digital",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Institucion"
     },
-    "subClasses" : [ "54", "43", "24", "31" ],
+    "subClasses" : [ "73", "52", "53", "50" ],
     "attributes" : [ "external" ],
-    "id" : "32"
+    "id" : "42"
   } ],
   "property" : [ {
-    "id" : "0",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "3",
+    "id" : "2",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "6",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "10",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "12",
+    "id" : "17",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "14",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "16",
+    "id" : "18",
     "type" : "owl:objectProperty"
   }, {
     "id" : "19",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "8",
     "type" : "owl:objectProperty"
   }, {
     "id" : "22",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "25",
     "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "27",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "29",
+    "id" : "28",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "33",
+    "id" : "36",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "34",
-    "type" : "rdfs:SubClassOf"
+    "id" : "37",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "38",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "39",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "40",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "41",
-    "type" : "owl:objectProperty"
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "43",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "44",
-    "type" : "owl:objectProperty"
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "45",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "46",
     "type" : "owl:disjointWith"
@@ -593,55 +596,55 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "49",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "51",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "50",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "52",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "53",
+    "id" : "54",
     "type" : "owl:disjointWith"
   }, {
     "id" : "56",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "57",
     "type" : "owl:disjointWith"
   }, {
     "id" : "58",
     "type" : "owl:disjointWith"
   }, {
     "id" : "59",
-    "type" : "owl:objectProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "60",
     "type" : "owl:disjointWith"
   }, {
     "id" : "61",
-    "type" : "owl:disjointWith"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "62",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "64",
-    "type" : "owl:disjointWith"
+    "id" : "63",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "65",
     "type" : "owl:disjointWith"
   }, {
     "id" : "66",
-    "type" : "owl:disjointWith"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "67",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "68",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "69",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "70",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "71",
     "type" : "rdfs:SubClassOf"
@@ -649,26 +652,23 @@
     "id" : "72",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "73",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "74",
+    "id" : "21",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "75",
+    "id" : "74",
     "type" : "rdfs:SubClassOf"
   }, {
+    "id" : "75",
+    "type" : "owl:datatypeProperty"
+  }, {
     "id" : "76",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "77",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "78",
     "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "21",
-    "type" : "owl:objectProperty"
   }, {
     "id" : "79",
     "type" : "rdfs:SubClassOf"
@@ -695,70 +695,47 @@
     "type" : "rdfs:SubClassOf"
   } ],
   "propertyAttribute" : [ {
-    "iri" : "http://www.ejemplo.org/georeligion/produce",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
-    "range" : "2",
-    "label" : {
-      "IRI-based" : "produce"
-    },
-    "domain" : "1",
-    "comment" : {
-      "es" : "Indica la obra material que resulta de un evento de producción."
-    },
-    "attributes" : [ "object", "external" ],
-    "id" : "0"
-  }, {
-    "range" : "5",
-    "domain" : "4",
+    "range" : "4",
+    "domain" : "3",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "3"
+    "id" : "2"
   }, {
-    "iri" : "http://www.ejemplo.org/georeligion/tieneLengua",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
-    "range" : "8",
-    "label" : {
-      "IRI-based" : "tieneLengua"
-    },
-    "domain" : "7",
-    "attributes" : [ "object", "external" ],
-    "id" : "6"
-  }, {
-    "iri" : "http://www.ejemplo.org/georeligion/tieneIlustraciones",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
-    "range" : "11",
-    "label" : {
-      "IRI-based" : "tieneIlustraciones"
-    },
-    "domain" : "7",
-    "comment" : {
-      "es" : "Valor booleano sobre si la obra tiene ilustraciones."
-    },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "10"
-  }, {
-    "range" : "5",
-    "domain" : "13",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "12"
-  }, {
-    "range" : "5",
-    "domain" : "15",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "14"
-  }, {
-    "iri" : "http://www.ejemplo.org/georeligion/origenViaje",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
-    "range" : "18",
+    "iri" : "https://onto.digitalhumanities.digital/origenViaje",
+    "baseIri" : "https://onto.digitalhumanities.digital",
+    "range" : "7",
     "label" : {
       "IRI-based" : "origenViaje"
     },
-    "superproperty" : [ "19" ],
-    "domain" : "17",
+    "superproperty" : [ "8" ],
+    "domain" : "1",
     "comment" : {
       "es" : "Designa el origen del viaje."
     },
-    "attributes" : [ "object", "external" ],
-    "id" : "16"
+    "attributes" : [ "external", "object" ],
+    "id" : "6"
+  }, {
+    "range" : "4",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "17"
+  }, {
+    "iri" : "https://onto.digitalhumanities.digital/produce",
+    "baseIri" : "https://onto.digitalhumanities.digital",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "produce"
+    },
+    "domain" : "9",
+    "comment" : {
+      "es" : "Indica la obra material que resulta de un evento de producción."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "18"
+  }, {
+    "range" : "4",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "19"
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
     "baseIri" : "http://www.w3.org/2002/07/owl",
@@ -767,317 +744,340 @@
       "IRI-based" : "topObjectProperty"
     },
     "domain" : "20",
-    "subproperty" : [ "16", "21" ],
-    "attributes" : [ "object", "external" ],
-    "id" : "19"
+    "subproperty" : [ "21", "6" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "8"
   }, {
-    "iri" : "http://www.ejemplo.org/georeligion/perteneceAOrden",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
-    "range" : "24",
-    "label" : {
-      "IRI-based" : "perteneceAOrden"
-    },
-    "domain" : "23",
-    "comment" : {
-      "es" : "Establece a qué orden religiosa pertenece el sujeto."
-    },
-    "attributes" : [ "object", "external", "functional" ],
+    "range" : "4",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "22"
   }, {
-    "range" : "5",
-    "domain" : "26",
+    "range" : "4",
+    "domain" : "9",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "25"
+    "id" : "23"
   }, {
-    "range" : "5",
-    "domain" : "28",
+    "iri" : "https://onto.digitalhumanities.digital/tieneLengua",
+    "baseIri" : "https://onto.digitalhumanities.digital",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "tieneLengua"
+    },
+    "domain" : "25",
+    "attributes" : [ "external", "object" ],
+    "id" : "24"
+  }, {
+    "range" : "4",
+    "domain" : "11",
     "attributes" : [ "object", "anonymous" ],
     "id" : "27"
   }, {
-    "range" : "5",
-    "domain" : "30",
+    "range" : "4",
+    "domain" : "5",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "29"
+    "id" : "28"
   }, {
-    "iri" : "http://www.ejemplo.org/georeligion/esNaciminetoDe",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
-    "range" : "17",
-    "label" : {
-      "IRI-based" : "esNaciminetoDe"
-    },
-    "domain" : "28",
-    "attributes" : [ "object", "external", "functional" ],
-    "id" : "33"
-  }, {
-    "range" : "5",
-    "domain" : "35",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "34"
-  }, {
-    "range" : "17",
-    "domain" : "2",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "39"
-  }, {
-    "range" : "17",
-    "domain" : "18",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "40"
-  }, {
-    "iri" : "http://www.ejemplo.org/georeligion/perteneceAProvincia",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
-    "range" : "43",
-    "label" : {
-      "IRI-based" : "perteneceAProvincia"
-    },
-    "domain" : "42",
-    "comment" : {
-      "es" : "Provincia de la Orden a la que pertenece un convento"
-    },
-    "attributes" : [ "object", "inverse functional", "external", "functional" ],
-    "id" : "41"
-  }, {
-    "iri" : "http://www.ejemplo.org/georeligion/profesaEn",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
-    "range" : "42",
+    "iri" : "https://onto.digitalhumanities.digital/profesaEn",
+    "baseIri" : "https://onto.digitalhumanities.digital",
+    "range" : "30",
     "label" : {
       "IRI-based" : "profesaEn"
     },
-    "domain" : "26",
+    "domain" : "3",
     "comment" : {
       "es" : "Indica el convento o lugar de profesión de miembros de las órdenes."
     },
-    "attributes" : [ "object", "external", "functional" ],
+    "attributes" : [ "functional", "external", "object" ],
+    "id" : "36"
+  }, {
+    "range" : "1",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "37"
+  }, {
+    "range" : "1",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "38"
+  }, {
+    "iri" : "https://onto.digitalhumanities.digital/tieneIlustraciones",
+    "baseIri" : "https://onto.digitalhumanities.digital",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "tieneIlustraciones"
+    },
+    "domain" : "25",
+    "comment" : {
+      "es" : "Valor booleano sobre si la obra tiene ilustraciones."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "39"
+  }, {
+    "range" : "16",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "41"
+  }, {
+    "range" : "7",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "43"
+  }, {
+    "range" : "16",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "44"
   }, {
-    "range" : "2",
-    "domain" : "32",
+    "range" : "1",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "45"
+  }, {
+    "range" : "7",
+    "domain" : "4",
     "attributes" : [ "object", "anonymous" ],
     "id" : "46"
   }, {
-    "range" : "18",
-    "domain" : "32",
+    "range" : "1",
+    "domain" : "4",
     "attributes" : [ "object", "anonymous" ],
     "id" : "47"
   }, {
-    "range" : "2",
-    "domain" : "18",
+    "range" : "16",
+    "domain" : "4",
     "attributes" : [ "object", "anonymous" ],
     "id" : "48"
   }, {
-    "range" : "17",
-    "domain" : "32",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "49"
-  }, {
-    "range" : "18",
-    "domain" : "5",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "50"
-  }, {
-    "range" : "17",
-    "domain" : "5",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "52"
-  }, {
-    "range" : "2",
-    "domain" : "5",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "53"
-  }, {
-    "range" : "43",
-    "domain" : "31",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "56"
-  }, {
-    "range" : "24",
-    "domain" : "55",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "58"
-  }, {
-    "iri" : "http://www.ejemplo.org/georeligion/realizaEvento",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
-    "range" : "1",
+    "iri" : "https://onto.digitalhumanities.digital/perteneceAProvincia",
+    "baseIri" : "https://onto.digitalhumanities.digital",
+    "range" : "50",
     "label" : {
-      "IRI-based" : "realizaEvento"
-    },
-    "domain" : "17",
-    "comment" : {
-      "es" : "Conecta una persona con un evento en el que participa activamente"
-    },
-    "attributes" : [ "object", "external" ],
-    "id" : "59"
-  }, {
-    "range" : "43",
-    "domain" : "55",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "60"
-  }, {
-    "range" : "43",
-    "domain" : "24",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "61"
-  }, {
-    "range" : "42",
-    "domain" : "63",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "62"
-  }, {
-    "range" : "51",
-    "domain" : "63",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "64"
-  }, {
-    "range" : "51",
-    "domain" : "42",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "65"
-  }, {
-    "range" : "32",
-    "domain" : "5",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "66"
-  }, {
-    "iri" : "http://www.ejemplo.org/georeligion/motivoAbandono",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
-    "range" : "36",
-    "label" : {
-      "IRI-based" : "motivoAbandono"
+      "IRI-based" : "perteneceAProvincia"
     },
     "domain" : "30",
     "comment" : {
-      "undefined" : "Motivo(s) del abandono de una persona en misión."
+      "es" : "Provincia de la Orden a la que pertenece un convento"
     },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "67"
+    "attributes" : [ "functional", "external", "inverse functional", "object" ],
+    "id" : "49"
   }, {
-    "iri" : "http://www.ejemplo.org/georeligion/estaPublicado",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
-    "range" : "45",
+    "range" : "50",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "51"
+  }, {
+    "range" : "53",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "54"
+  }, {
+    "range" : "50",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "56"
+  }, {
+    "range" : "50",
+    "domain" : "53",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "57"
+  }, {
+    "range" : "30",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "58"
+  }, {
+    "range" : "31",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "59"
+  }, {
+    "range" : "31",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "60"
+  }, {
+    "iri" : "https://onto.digitalhumanities.digital/realizaEvento",
+    "baseIri" : "https://onto.digitalhumanities.digital",
+    "range" : "9",
     "label" : {
-      "IRI-based" : "estaPublicado"
+      "IRI-based" : "realizaEvento"
     },
-    "domain" : "7",
+    "domain" : "1",
     "comment" : {
-      "es" : "Valor booleano que define si la obra se ha publicado o quedó en manuscrito."
+      "es" : "Conecta una persona con un evento en el que participa activamente"
     },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "68"
+    "attributes" : [ "external", "object" ],
+    "id" : "61"
   }, {
-    "range" : "55",
-    "domain" : "31",
+    "range" : "42",
+    "domain" : "4",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "69"
+    "id" : "62"
   }, {
-    "range" : "24",
-    "domain" : "31",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "70"
-  }, {
-    "range" : "32",
-    "domain" : "24",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "71"
-  }, {
-    "range" : "32",
-    "domain" : "43",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "72"
-  }, {
-    "range" : "32",
-    "domain" : "31",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "73"
-  }, {
-    "iri" : "http://www.ejemplo.org/georeligion/esMuerteDe",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
-    "range" : "17",
+    "iri" : "https://onto.digitalhumanities.digital/esMuerteDe",
+    "baseIri" : "https://onto.digitalhumanities.digital",
+    "range" : "1",
     "label" : {
       "IRI-based" : "esMuerteDe"
     },
-    "domain" : "4",
-    "attributes" : [ "object", "external", "functional" ],
-    "id" : "74"
+    "domain" : "10",
+    "attributes" : [ "functional", "external", "object" ],
+    "id" : "63"
   }, {
-    "range" : "32",
-    "domain" : "54",
+    "range" : "55",
+    "domain" : "52",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "75"
+    "id" : "65"
   }, {
-    "range" : "17",
-    "domain" : "38",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "76"
-  }, {
-    "iri" : "http://www.ejemplo.org/georeligion/fecha",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
-    "range" : "37",
+    "iri" : "https://onto.digitalhumanities.digital/esNaciminetoDe",
+    "baseIri" : "https://onto.digitalhumanities.digital",
+    "range" : "1",
     "label" : {
-      "IRI-based" : "fecha"
+      "IRI-based" : "esNaciminetoDe"
     },
-    "domain" : "5",
-    "comment" : {
-      "es" : "Fecha en que ocurre el evento"
-    },
-    "attributes" : [ "datatype", "external" ],
-    "id" : "77"
+    "domain" : "14",
+    "attributes" : [ "functional", "external", "object" ],
+    "id" : "66"
   }, {
-    "range" : "17",
-    "domain" : "23",
+    "range" : "53",
+    "domain" : "52",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "78"
+    "id" : "67"
   }, {
-    "iri" : "http://www.ejemplo.org/georeligion/destinoViaje",
-    "baseIri" : "http://www.ejemplo.org/georeligion",
-    "range" : "18",
+    "iri" : "https://onto.digitalhumanities.digital/perteneceAOrden",
+    "baseIri" : "https://onto.digitalhumanities.digital",
+    "range" : "53",
+    "label" : {
+      "IRI-based" : "perteneceAOrden"
+    },
+    "domain" : "0",
+    "comment" : {
+      "es" : "Establece a qué orden religiosa pertenece el sujeto."
+    },
+    "attributes" : [ "functional", "external", "object" ],
+    "id" : "68"
+  }, {
+    "range" : "42",
+    "domain" : "53",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "69"
+  }, {
+    "range" : "42",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "70"
+  }, {
+    "range" : "42",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "71"
+  }, {
+    "range" : "42",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "72"
+  }, {
+    "iri" : "https://onto.digitalhumanities.digital/destinoViaje",
+    "baseIri" : "https://onto.digitalhumanities.digital",
+    "range" : "7",
     "label" : {
       "IRI-based" : "destinoViaje"
     },
-    "superproperty" : [ "19" ],
-    "domain" : "17",
+    "superproperty" : [ "8" ],
+    "domain" : "1",
     "comment" : {
       "es" : "Designa el destino del viaje."
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "21"
   }, {
-    "range" : "2",
-    "domain" : "57",
+    "range" : "1",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "74"
+  }, {
+    "iri" : "https://onto.digitalhumanities.digital/motivoAbandono",
+    "baseIri" : "https://onto.digitalhumanities.digital",
+    "range" : "32",
+    "label" : {
+      "IRI-based" : "motivoAbandono"
+    },
+    "domain" : "12",
+    "comment" : {
+      "undefined" : "Motivo(s) del abandono de una persona en misión."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "75"
+  }, {
+    "iri" : "https://onto.digitalhumanities.digital/estaPublicado",
+    "baseIri" : "https://onto.digitalhumanities.digital",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "estaPublicado"
+    },
+    "domain" : "25",
+    "comment" : {
+      "es" : "Valor booleano que define si la obra se ha publicado o quedó en manuscrito."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "76"
+  }, {
+    "iri" : "https://onto.digitalhumanities.digital/fecha",
+    "baseIri" : "https://onto.digitalhumanities.digital",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "fecha"
+    },
+    "domain" : "4",
+    "comment" : {
+      "es" : "Fecha en que ocurre el evento"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "77"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "78"
+  }, {
+    "range" : "16",
+    "domain" : "34",
     "attributes" : [ "object", "anonymous" ],
     "id" : "79"
   }, {
-    "range" : "18",
-    "domain" : "51",
+    "range" : "16",
+    "domain" : "25",
     "attributes" : [ "object", "anonymous" ],
     "id" : "80"
   }, {
-    "range" : "2",
-    "domain" : "7",
+    "range" : "73",
+    "domain" : "55",
     "attributes" : [ "object", "anonymous" ],
     "id" : "81"
   }, {
-    "range" : "2",
-    "domain" : "9",
+    "range" : "16",
+    "domain" : "15",
     "attributes" : [ "object", "anonymous" ],
     "id" : "82"
   }, {
-    "range" : "54",
-    "domain" : "55",
+    "range" : "7",
+    "domain" : "29",
     "attributes" : [ "object", "anonymous" ],
     "id" : "83"
   }, {
-    "range" : "5",
-    "domain" : "1",
+    "range" : "4",
+    "domain" : "14",
     "attributes" : [ "object", "anonymous" ],
     "id" : "84"
   }, {
-    "range" : "18",
-    "domain" : "42",
+    "range" : "7",
+    "domain" : "31",
     "attributes" : [ "object", "anonymous" ],
     "id" : "85"
   }, {
-    "range" : "18",
-    "domain" : "63",
+    "range" : "7",
+    "domain" : "30",
     "attributes" : [ "object", "anonymous" ],
     "id" : "86"
   } ]

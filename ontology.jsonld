@@ -3,13 +3,13 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.ejemplo.org/georeligion/CentroMision"
+      "@id" : "https://onto.digitalhumanities.digital/CentroMision"
     }, {
-      "@id" : "http://www.ejemplo.org/georeligion/Iglesia"
+      "@id" : "https://onto.digitalhumanities.digital/Iglesia"
     }, {
-      "@id" : "http://www.ejemplo.org/georeligion/OrdenReligiosa"
+      "@id" : "https://onto.digitalhumanities.digital/OrdenReligiosa"
     }, {
-      "@id" : "http://www.ejemplo.org/georeligion/ProvinciaOrden"
+      "@id" : "https://onto.digitalhumanities.digital/ProvinciaOrden"
     } ]
   } ]
 }, {
@@ -17,15 +17,15 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.ejemplo.org/georeligion/Evento"
+      "@id" : "https://onto.digitalhumanities.digital/Evento"
     }, {
-      "@id" : "http://www.ejemplo.org/georeligion/Institucion"
+      "@id" : "https://onto.digitalhumanities.digital/Institucion"
     }, {
-      "@id" : "http://www.ejemplo.org/georeligion/Lugar"
+      "@id" : "https://onto.digitalhumanities.digital/Lugar"
     }, {
-      "@id" : "http://www.ejemplo.org/georeligion/ObjetoMaterial"
+      "@id" : "https://onto.digitalhumanities.digital/ObjetoMaterial"
     }, {
-      "@id" : "http://www.ejemplo.org/georeligion/Persona"
+      "@id" : "https://onto.digitalhumanities.digital/Persona"
     } ]
   } ]
 }, {
@@ -33,11 +33,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.ejemplo.org/georeligion/Ciudad"
+      "@id" : "https://onto.digitalhumanities.digital/Ciudad"
     }, {
-      "@id" : "http://www.ejemplo.org/georeligion/Convento"
+      "@id" : "https://onto.digitalhumanities.digital/Convento"
     }, {
-      "@id" : "http://www.ejemplo.org/georeligion/ZonaMision"
+      "@id" : "https://onto.digitalhumanities.digital/ZonaMision"
     } ]
   } ]
 }, {
@@ -50,11 +50,11 @@
   "@id" : "http://purl.org/dc/terms/title",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion",
+  "@id" : "https://onto.digitalhumanities.digital",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/terms/created" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
-    "@value" : "2025-07-09+06:00"
+    "@value" : "\"2025-07-09+06:00\""
   } ],
   "http://purl.org/dc/terms/creator" : [ {
     "@value" : "Igor Sosa Mayor"
@@ -71,424 +71,424 @@
     "@value" : "0.1"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/Abandonar",
+  "@id" : "https://onto.digitalhumanities.digital/Abandonar",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
     "@value" : "Acción de abanondar una Orden religiosa, una misión, etc."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Evento"
+    "@id" : "https://onto.digitalhumanities.digital/Evento"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/CentroCulto",
+  "@id" : "https://onto.digitalhumanities.digital/CentroCulto",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
     "@value" : "Centro de culto de una religión (iglesia cristiana, mezquita musulmana, etc.)"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Institucion"
+    "@id" : "https://onto.digitalhumanities.digital/Institucion"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/CentroMision",
+  "@id" : "https://onto.digitalhumanities.digital/CentroMision",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
     "@value" : "Centro desde el que se organizan misiones católicas (doctrina dominica, etc.)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Institucion"
+    "@id" : "https://onto.digitalhumanities.digital/Institucion"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/Ciudad",
+  "@id" : "https://onto.digitalhumanities.digital/Ciudad",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Lugar"
+    "@id" : "https://onto.digitalhumanities.digital/Lugar"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/Convento",
+  "@id" : "https://onto.digitalhumanities.digital/Convento",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
     "@value" : "Centro conventual de una orden religiosa."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Lugar"
+    "@id" : "https://onto.digitalhumanities.digital/Lugar"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/Espanol",
+  "@id" : "https://onto.digitalhumanities.digital/Espanol",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Lengua"
+    "@id" : "https://onto.digitalhumanities.digital/Lengua"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/Evento",
+  "@id" : "https://onto.digitalhumanities.digital/Evento",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/Frances",
+  "@id" : "https://onto.digitalhumanities.digital/Frances",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Lengua"
+    "@id" : "https://onto.digitalhumanities.digital/Lengua"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/Fundar",
+  "@id" : "https://onto.digitalhumanities.digital/Fundar",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
     "@value" : "Acción de fundar un convento, iglesia u otra institución vinculada a una Orden religiosa."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Evento"
+    "@id" : "https://onto.digitalhumanities.digital/Evento"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/HacerProfesion",
+  "@id" : "https://onto.digitalhumanities.digital/HacerProfesion",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
     "@value" : "Acción de hacer profesión en una Orden religiosa."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Evento"
+    "@id" : "https://onto.digitalhumanities.digital/Evento"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/Iglesia",
+  "@id" : "https://onto.digitalhumanities.digital/Iglesia",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Iglesia cristiana."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/CentroCulto"
+    "@id" : "https://onto.digitalhumanities.digital/CentroCulto"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/IniciarNoviciado",
+  "@id" : "https://onto.digitalhumanities.digital/IniciarNoviciado",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
     "@value" : "Acción de iniciar el noviciado en una Orden religiosa."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Evento"
+    "@id" : "https://onto.digitalhumanities.digital/Evento"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/Institucion",
+  "@id" : "https://onto.digitalhumanities.digital/Institucion",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/Latin",
+  "@id" : "https://onto.digitalhumanities.digital/Latin",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Lengua"
+    "@id" : "https://onto.digitalhumanities.digital/Lengua"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/Lengua",
+  "@id" : "https://onto.digitalhumanities.digital/Lengua",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
     "@value" : "Lengua en la que está producida una obra"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/Lugar",
+  "@id" : "https://onto.digitalhumanities.digital/Lugar",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/Maya",
+  "@id" : "https://onto.digitalhumanities.digital/Maya",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Lengua"
+    "@id" : "https://onto.digitalhumanities.digital/Lengua"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/MiembroOrden",
+  "@id" : "https://onto.digitalhumanities.digital/MiembroOrden",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
     "@value" : "Hombre o mujer miembro de una Orden religiosa"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Persona"
+    "@id" : "https://onto.digitalhumanities.digital/Persona"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/Misionero",
+  "@id" : "https://onto.digitalhumanities.digital/Misionero",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
     "@value" : "Misionero perteneciente a una Orden religiosa."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Persona"
+    "@id" : "https://onto.digitalhumanities.digital/Persona"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/Muerte",
+  "@id" : "https://onto.digitalhumanities.digital/Muerte",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
     "@value" : "Evento de muerte de una persona"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Evento"
+    "@id" : "https://onto.digitalhumanities.digital/Evento"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/Nacimiento",
+  "@id" : "https://onto.digitalhumanities.digital/Nacimiento",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
     "@value" : "Evento de nacimineto de una persona."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Evento"
+    "@id" : "https://onto.digitalhumanities.digital/Evento"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/ObjetoLiturgico",
+  "@id" : "https://onto.digitalhumanities.digital/ObjetoLiturgico",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/ObjetoMaterial"
+    "@id" : "https://onto.digitalhumanities.digital/ObjetoMaterial"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/ObjetoMaterial",
+  "@id" : "https://onto.digitalhumanities.digital/ObjetoMaterial",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/ObraEscrita",
+  "@id" : "https://onto.digitalhumanities.digital/ObraEscrita",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
     "@value" : "Obra escrita de cualquier tipo, formato y tema (publicada, en manuscrito, etc.)"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/ObjetoMaterial"
+    "@id" : "https://onto.digitalhumanities.digital/ObjetoMaterial"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/OrdenReligiosa",
+  "@id" : "https://onto.digitalhumanities.digital/OrdenReligiosa",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
     "@value" : "Institución de orden religiosa en sentido amplio (católica, budista, musulmana)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Institucion"
+    "@id" : "https://onto.digitalhumanities.digital/Institucion"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/Persona",
+  "@id" : "https://onto.digitalhumanities.digital/Persona",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/ProducirObra",
+  "@id" : "https://onto.digitalhumanities.digital/ProducirObra",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
     "@value" : "Evento de producir una obra por parte de una o varias personas."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Evento"
+    "@id" : "https://onto.digitalhumanities.digital/Evento"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/ProvinciaOrden",
+  "@id" : "https://onto.digitalhumanities.digital/ProvinciaOrden",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
     "@value" : "Provncia o estructuras institucionales geográficas similares de las órdenes religiosas católicas."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Institucion"
+    "@id" : "https://onto.digitalhumanities.digital/Institucion"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/Reliquia",
+  "@id" : "https://onto.digitalhumanities.digital/Reliquia",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/ObjetoMaterial"
+    "@id" : "https://onto.digitalhumanities.digital/ObjetoMaterial"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/Viaje",
+  "@id" : "https://onto.digitalhumanities.digital/Viaje",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
     "@value" : "Viaje de una o varias personas de un origen a un destino."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Evento"
+    "@id" : "https://onto.digitalhumanities.digital/Evento"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/ZonaMision",
+  "@id" : "https://onto.digitalhumanities.digital/ZonaMision",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
     "@value" : "Lugar geográfico de misión de entidad geográfica variable."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Lugar"
+    "@id" : "https://onto.digitalhumanities.digital/Lugar"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/destinoViaje",
+  "@id" : "https://onto.digitalhumanities.digital/destinoViaje",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
     "@value" : "Designa el destino del viaje."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Persona"
+    "@id" : "https://onto.digitalhumanities.digital/Persona"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Lugar"
+    "@id" : "https://onto.digitalhumanities.digital/Lugar"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ],
   "http://www.w3.org/2002/07/owl#propertyDisjointWith" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/origenViaje"
+    "@id" : "https://onto.digitalhumanities.digital/origenViaje"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/esMuerteDe",
+  "@id" : "https://onto.digitalhumanities.digital/esMuerteDe",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Muerte"
+    "@id" : "https://onto.digitalhumanities.digital/Muerte"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Persona"
+    "@id" : "https://onto.digitalhumanities.digital/Persona"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/esNaciminetoDe",
+  "@id" : "https://onto.digitalhumanities.digital/esNaciminetoDe",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Nacimiento"
+    "@id" : "https://onto.digitalhumanities.digital/Nacimiento"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Persona"
+    "@id" : "https://onto.digitalhumanities.digital/Persona"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/estaPublicado",
+  "@id" : "https://onto.digitalhumanities.digital/estaPublicado",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
     "@value" : "Valor booleano que define si la obra se ha publicado o quedó en manuscrito."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/ObraEscrita"
+    "@id" : "https://onto.digitalhumanities.digital/ObraEscrita"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/fecha",
+  "@id" : "https://onto.digitalhumanities.digital/fecha",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
     "@value" : "Fecha en que ocurre el evento"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Evento"
+    "@id" : "https://onto.digitalhumanities.digital/Evento"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/motivoAbandono",
+  "@id" : "https://onto.digitalhumanities.digital/motivoAbandono",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Motivo(s) del abandono de una persona en misión."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Abandonar"
+    "@id" : "https://onto.digitalhumanities.digital/Abandonar"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/origenViaje",
+  "@id" : "https://onto.digitalhumanities.digital/origenViaje",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
     "@value" : "Designa el origen del viaje."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Persona"
+    "@id" : "https://onto.digitalhumanities.digital/Persona"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Lugar"
+    "@id" : "https://onto.digitalhumanities.digital/Lugar"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/perteneceAOrden",
+  "@id" : "https://onto.digitalhumanities.digital/perteneceAOrden",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
     "@value" : "Establece a qué orden religiosa pertenece el sujeto."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/MiembroOrden"
+    "@id" : "https://onto.digitalhumanities.digital/MiembroOrden"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/OrdenReligiosa"
+    "@id" : "https://onto.digitalhumanities.digital/OrdenReligiosa"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/perteneceAProvincia",
+  "@id" : "https://onto.digitalhumanities.digital/perteneceAProvincia",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
     "@value" : "Provincia de la Orden a la que pertenece un convento"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Convento"
+    "@id" : "https://onto.digitalhumanities.digital/Convento"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/ProvinciaOrden"
+    "@id" : "https://onto.digitalhumanities.digital/ProvinciaOrden"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/produce",
+  "@id" : "https://onto.digitalhumanities.digital/produce",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
     "@value" : "Indica la obra material que resulta de un evento de producción."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/ProducirObra"
+    "@id" : "https://onto.digitalhumanities.digital/ProducirObra"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/ObjetoMaterial"
+    "@id" : "https://onto.digitalhumanities.digital/ObjetoMaterial"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/profesaEn",
+  "@id" : "https://onto.digitalhumanities.digital/profesaEn",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
     "@value" : "Indica el convento o lugar de profesión de miembros de las órdenes."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/HacerProfesion"
+    "@id" : "https://onto.digitalhumanities.digital/HacerProfesion"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Convento"
+    "@id" : "https://onto.digitalhumanities.digital/Convento"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/realizaEvento",
+  "@id" : "https://onto.digitalhumanities.digital/realizaEvento",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
     "@value" : "Conecta una persona con un evento en el que participa activamente"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Persona"
+    "@id" : "https://onto.digitalhumanities.digital/Persona"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/ProducirObra"
+    "@id" : "https://onto.digitalhumanities.digital/ProducirObra"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/tieneIlustraciones",
+  "@id" : "https://onto.digitalhumanities.digital/tieneIlustraciones",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
     "@value" : "Valor booleano sobre si la obra tiene ilustraciones."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/ObraEscrita"
+    "@id" : "https://onto.digitalhumanities.digital/ObraEscrita"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
-  "@id" : "http://www.ejemplo.org/georeligion/tieneLengua",
+  "@id" : "https://onto.digitalhumanities.digital/tieneLengua",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/ObraEscrita"
+    "@id" : "https://onto.digitalhumanities.digital/ObraEscrita"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.ejemplo.org/georeligion/Lengua"
+    "@id" : "https://onto.digitalhumanities.digital/Lengua"
   } ]
 } ]

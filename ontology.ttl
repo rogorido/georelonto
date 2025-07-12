@@ -1,17 +1,17 @@
-@prefix : <http://www.ejemplo.org/georeligion#> .
+@prefix : <https://onto.digitalhumanities.digital#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.ejemplo.org/georeligion#> .
+@base <https://onto.digitalhumanities.digital#> .
 
-<http://www.ejemplo.org/georeligion> rdf:type owl:Ontology ;
-                                      <http://purl.org/dc/terms/created> "2025-07-09+06:00"^^xsd:dateTime ;
-                                      <http://purl.org/dc/terms/creator> "Igor Sosa Mayor" ;
-                                      <http://purl.org/dc/terms/title> "Ontology on religious orders in the Early modern period"@en ,
-                                                                       "Ontología de órdenes religiosas en la Edad Moderna"@es ;
-                                      owl:versionInfo 0.1 .
+<https://onto.digitalhumanities.digital> rdf:type owl:Ontology ;
+                                          <http://purl.org/dc/terms/created> "\"2025-07-09+06:00\""^^xsd:dateTime ;
+                                          <http://purl.org/dc/terms/creator> "Igor Sosa Mayor" ;
+                                          <http://purl.org/dc/terms/title> "Ontology on religious orders in the Early modern period"@en ,
+                                                                           "Ontología de órdenes religiosas en la Edad Moderna"@es ;
+                                          owl:versionInfo 0.1 .
 
 #################################################################
 #    Annotation properties
@@ -33,288 +33,288 @@
 #    Object Properties
 #################################################################
 
-###  http://www.ejemplo.org/georeligion/destinoViaje
-<http://www.ejemplo.org/georeligion/destinoViaje> rdf:type owl:ObjectProperty ;
-                                                  rdfs:subPropertyOf owl:topObjectProperty ;
-                                                  rdfs:domain <http://www.ejemplo.org/georeligion/Persona> ;
-                                                  rdfs:range <http://www.ejemplo.org/georeligion/Lugar> ;
-                                                  owl:propertyDisjointWith <http://www.ejemplo.org/georeligion/origenViaje> ;
-                                                  rdfs:comment "Designa el destino del viaje."@es .
+###  https://onto.digitalhumanities.digital/destinoViaje
+<https://onto.digitalhumanities.digital/destinoViaje> rdf:type owl:ObjectProperty ;
+                                                      rdfs:subPropertyOf owl:topObjectProperty ;
+                                                      rdfs:domain <https://onto.digitalhumanities.digital/Persona> ;
+                                                      rdfs:range <https://onto.digitalhumanities.digital/Lugar> ;
+                                                      owl:propertyDisjointWith <https://onto.digitalhumanities.digital/origenViaje> ;
+                                                      rdfs:comment "Designa el destino del viaje."@es .
 
 
-###  http://www.ejemplo.org/georeligion/esMuerteDe
-<http://www.ejemplo.org/georeligion/esMuerteDe> rdf:type owl:ObjectProperty ,
-                                                         owl:FunctionalProperty ;
-                                                rdfs:domain <http://www.ejemplo.org/georeligion/Muerte> ;
-                                                rdfs:range <http://www.ejemplo.org/georeligion/Persona> .
-
-
-###  http://www.ejemplo.org/georeligion/esNaciminetoDe
-<http://www.ejemplo.org/georeligion/esNaciminetoDe> rdf:type owl:ObjectProperty ,
+###  https://onto.digitalhumanities.digital/esMuerteDe
+<https://onto.digitalhumanities.digital/esMuerteDe> rdf:type owl:ObjectProperty ,
                                                              owl:FunctionalProperty ;
-                                                    rdfs:domain <http://www.ejemplo.org/georeligion/Nacimiento> ;
-                                                    rdfs:range <http://www.ejemplo.org/georeligion/Persona> .
+                                                    rdfs:domain <https://onto.digitalhumanities.digital/Muerte> ;
+                                                    rdfs:range <https://onto.digitalhumanities.digital/Persona> .
 
 
-###  http://www.ejemplo.org/georeligion/origenViaje
-<http://www.ejemplo.org/georeligion/origenViaje> rdf:type owl:ObjectProperty ;
-                                                 rdfs:subPropertyOf owl:topObjectProperty ;
-                                                 rdfs:domain <http://www.ejemplo.org/georeligion/Persona> ;
-                                                 rdfs:range <http://www.ejemplo.org/georeligion/Lugar> ;
-                                                 rdfs:comment "Designa el origen del viaje."@es .
+###  https://onto.digitalhumanities.digital/esNaciminetoDe
+<https://onto.digitalhumanities.digital/esNaciminetoDe> rdf:type owl:ObjectProperty ,
+                                                                 owl:FunctionalProperty ;
+                                                        rdfs:domain <https://onto.digitalhumanities.digital/Nacimiento> ;
+                                                        rdfs:range <https://onto.digitalhumanities.digital/Persona> .
 
 
-###  http://www.ejemplo.org/georeligion/perteneceAOrden
-<http://www.ejemplo.org/georeligion/perteneceAOrden> rdf:type owl:ObjectProperty ,
-                                                              owl:FunctionalProperty ;
-                                                     rdfs:domain <http://www.ejemplo.org/georeligion/MiembroOrden> ;
-                                                     rdfs:range <http://www.ejemplo.org/georeligion/OrdenReligiosa> ;
-                                                     rdfs:comment "Establece a qué orden religiosa pertenece el sujeto."@es .
+###  https://onto.digitalhumanities.digital/origenViaje
+<https://onto.digitalhumanities.digital/origenViaje> rdf:type owl:ObjectProperty ;
+                                                     rdfs:subPropertyOf owl:topObjectProperty ;
+                                                     rdfs:domain <https://onto.digitalhumanities.digital/Persona> ;
+                                                     rdfs:range <https://onto.digitalhumanities.digital/Lugar> ;
+                                                     rdfs:comment "Designa el origen del viaje."@es .
 
 
-###  http://www.ejemplo.org/georeligion/perteneceAProvincia
-<http://www.ejemplo.org/georeligion/perteneceAProvincia> rdf:type owl:ObjectProperty ,
-                                                                  owl:FunctionalProperty ,
-                                                                  owl:InverseFunctionalProperty ;
-                                                         rdfs:domain <http://www.ejemplo.org/georeligion/Convento> ;
-                                                         rdfs:range <http://www.ejemplo.org/georeligion/ProvinciaOrden> ;
-                                                         rdfs:comment "Provincia de la Orden a la que pertenece un convento"@es .
+###  https://onto.digitalhumanities.digital/perteneceAOrden
+<https://onto.digitalhumanities.digital/perteneceAOrden> rdf:type owl:ObjectProperty ,
+                                                                  owl:FunctionalProperty ;
+                                                         rdfs:domain <https://onto.digitalhumanities.digital/MiembroOrden> ;
+                                                         rdfs:range <https://onto.digitalhumanities.digital/OrdenReligiosa> ;
+                                                         rdfs:comment "Establece a qué orden religiosa pertenece el sujeto."@es .
 
 
-###  http://www.ejemplo.org/georeligion/produce
-<http://www.ejemplo.org/georeligion/produce> rdf:type owl:ObjectProperty ;
-                                             rdfs:domain <http://www.ejemplo.org/georeligion/ProducirObra> ;
-                                             rdfs:range <http://www.ejemplo.org/georeligion/ObjetoMaterial> ;
-                                             rdfs:comment "Indica la obra material que resulta de un evento de producción."@es .
+###  https://onto.digitalhumanities.digital/perteneceAProvincia
+<https://onto.digitalhumanities.digital/perteneceAProvincia> rdf:type owl:ObjectProperty ,
+                                                                      owl:FunctionalProperty ,
+                                                                      owl:InverseFunctionalProperty ;
+                                                             rdfs:domain <https://onto.digitalhumanities.digital/Convento> ;
+                                                             rdfs:range <https://onto.digitalhumanities.digital/ProvinciaOrden> ;
+                                                             rdfs:comment "Provincia de la Orden a la que pertenece un convento"@es .
 
 
-###  http://www.ejemplo.org/georeligion/profesaEn
-<http://www.ejemplo.org/georeligion/profesaEn> rdf:type owl:ObjectProperty ,
-                                                        owl:FunctionalProperty ;
-                                               rdfs:domain <http://www.ejemplo.org/georeligion/HacerProfesion> ;
-                                               rdfs:range <http://www.ejemplo.org/georeligion/Convento> ;
-                                               rdfs:comment "Indica el convento o lugar de profesión de miembros de las órdenes."@es .
+###  https://onto.digitalhumanities.digital/produce
+<https://onto.digitalhumanities.digital/produce> rdf:type owl:ObjectProperty ;
+                                                 rdfs:domain <https://onto.digitalhumanities.digital/ProducirObra> ;
+                                                 rdfs:range <https://onto.digitalhumanities.digital/ObjetoMaterial> ;
+                                                 rdfs:comment "Indica la obra material que resulta de un evento de producción."@es .
 
 
-###  http://www.ejemplo.org/georeligion/realizaEvento
-<http://www.ejemplo.org/georeligion/realizaEvento> rdf:type owl:ObjectProperty ;
-                                                   rdfs:domain <http://www.ejemplo.org/georeligion/Persona> ;
-                                                   rdfs:range <http://www.ejemplo.org/georeligion/ProducirObra> ;
-                                                   rdfs:comment "Conecta una persona con un evento en el que participa activamente"@es .
+###  https://onto.digitalhumanities.digital/profesaEn
+<https://onto.digitalhumanities.digital/profesaEn> rdf:type owl:ObjectProperty ,
+                                                            owl:FunctionalProperty ;
+                                                   rdfs:domain <https://onto.digitalhumanities.digital/HacerProfesion> ;
+                                                   rdfs:range <https://onto.digitalhumanities.digital/Convento> ;
+                                                   rdfs:comment "Indica el convento o lugar de profesión de miembros de las órdenes."@es .
 
 
-###  http://www.ejemplo.org/georeligion/tieneLengua
-<http://www.ejemplo.org/georeligion/tieneLengua> rdf:type owl:ObjectProperty ;
-                                                 rdfs:domain <http://www.ejemplo.org/georeligion/ObraEscrita> ;
-                                                 rdfs:range <http://www.ejemplo.org/georeligion/Lengua> .
+###  https://onto.digitalhumanities.digital/realizaEvento
+<https://onto.digitalhumanities.digital/realizaEvento> rdf:type owl:ObjectProperty ;
+                                                       rdfs:domain <https://onto.digitalhumanities.digital/Persona> ;
+                                                       rdfs:range <https://onto.digitalhumanities.digital/ProducirObra> ;
+                                                       rdfs:comment "Conecta una persona con un evento en el que participa activamente"@es .
+
+
+###  https://onto.digitalhumanities.digital/tieneLengua
+<https://onto.digitalhumanities.digital/tieneLengua> rdf:type owl:ObjectProperty ;
+                                                     rdfs:domain <https://onto.digitalhumanities.digital/ObraEscrita> ;
+                                                     rdfs:range <https://onto.digitalhumanities.digital/Lengua> .
 
 
 #################################################################
 #    Data properties
 #################################################################
 
-###  http://www.ejemplo.org/georeligion/estaPublicado
-<http://www.ejemplo.org/georeligion/estaPublicado> rdf:type owl:DatatypeProperty ;
-                                                   rdfs:domain <http://www.ejemplo.org/georeligion/ObraEscrita> ;
-                                                   rdfs:range xsd:boolean ;
-                                                   rdfs:comment "Valor booleano que define si la obra se ha publicado o quedó en manuscrito."@es .
+###  https://onto.digitalhumanities.digital/estaPublicado
+<https://onto.digitalhumanities.digital/estaPublicado> rdf:type owl:DatatypeProperty ;
+                                                       rdfs:domain <https://onto.digitalhumanities.digital/ObraEscrita> ;
+                                                       rdfs:range xsd:boolean ;
+                                                       rdfs:comment "Valor booleano que define si la obra se ha publicado o quedó en manuscrito."@es .
 
 
-###  http://www.ejemplo.org/georeligion/fecha
-<http://www.ejemplo.org/georeligion/fecha> rdf:type owl:DatatypeProperty ;
-                                           rdfs:domain <http://www.ejemplo.org/georeligion/Evento> ;
-                                           rdfs:range xsd:dateTime ;
-                                           rdfs:comment "Fecha en que ocurre el evento"@es .
+###  https://onto.digitalhumanities.digital/fecha
+<https://onto.digitalhumanities.digital/fecha> rdf:type owl:DatatypeProperty ;
+                                               rdfs:domain <https://onto.digitalhumanities.digital/Evento> ;
+                                               rdfs:range xsd:dateTime ;
+                                               rdfs:comment "Fecha en que ocurre el evento"@es .
 
 
-###  http://www.ejemplo.org/georeligion/motivoAbandono
-<http://www.ejemplo.org/georeligion/motivoAbandono> rdf:type owl:DatatypeProperty ;
-                                                    rdfs:domain <http://www.ejemplo.org/georeligion/Abandonar> ;
-                                                    rdfs:range xsd:string ;
-                                                    rdfs:comment "Motivo(s) del abandono de una persona en misión." .
+###  https://onto.digitalhumanities.digital/motivoAbandono
+<https://onto.digitalhumanities.digital/motivoAbandono> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:domain <https://onto.digitalhumanities.digital/Abandonar> ;
+                                                        rdfs:range xsd:string ;
+                                                        rdfs:comment "Motivo(s) del abandono de una persona en misión." .
 
 
-###  http://www.ejemplo.org/georeligion/tieneIlustraciones
-<http://www.ejemplo.org/georeligion/tieneIlustraciones> rdf:type owl:DatatypeProperty ;
-                                                        rdfs:domain <http://www.ejemplo.org/georeligion/ObraEscrita> ;
-                                                        rdfs:range xsd:boolean ;
-                                                        rdfs:comment "Valor booleano sobre si la obra tiene ilustraciones."@es .
+###  https://onto.digitalhumanities.digital/tieneIlustraciones
+<https://onto.digitalhumanities.digital/tieneIlustraciones> rdf:type owl:DatatypeProperty ;
+                                                            rdfs:domain <https://onto.digitalhumanities.digital/ObraEscrita> ;
+                                                            rdfs:range xsd:boolean ;
+                                                            rdfs:comment "Valor booleano sobre si la obra tiene ilustraciones."@es .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://www.ejemplo.org/georeligion/Abandonar
-<http://www.ejemplo.org/georeligion/Abandonar> rdf:type owl:Class ;
-                                               rdfs:subClassOf <http://www.ejemplo.org/georeligion/Evento> ;
-                                               rdfs:comment "Acción de abanondar una Orden religiosa, una misión, etc."@es .
+###  https://onto.digitalhumanities.digital/Abandonar
+<https://onto.digitalhumanities.digital/Abandonar> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <https://onto.digitalhumanities.digital/Evento> ;
+                                                   rdfs:comment "Acción de abanondar una Orden religiosa, una misión, etc."@es .
 
 
-###  http://www.ejemplo.org/georeligion/CentroCulto
-<http://www.ejemplo.org/georeligion/CentroCulto> rdf:type owl:Class ;
-                                                 rdfs:subClassOf <http://www.ejemplo.org/georeligion/Institucion> ;
-                                                 rdfs:comment "Centro de culto de una religión (iglesia cristiana, mezquita musulmana, etc.)"@es .
+###  https://onto.digitalhumanities.digital/CentroCulto
+<https://onto.digitalhumanities.digital/CentroCulto> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://onto.digitalhumanities.digital/Institucion> ;
+                                                     rdfs:comment "Centro de culto de una religión (iglesia cristiana, mezquita musulmana, etc.)"@es .
 
 
-###  http://www.ejemplo.org/georeligion/CentroMision
-<http://www.ejemplo.org/georeligion/CentroMision> rdf:type owl:Class ;
-                                                  rdfs:subClassOf <http://www.ejemplo.org/georeligion/Institucion> ;
-                                                  rdfs:comment "Centro desde el que se organizan misiones católicas (doctrina dominica, etc.)."@es .
+###  https://onto.digitalhumanities.digital/CentroMision
+<https://onto.digitalhumanities.digital/CentroMision> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://onto.digitalhumanities.digital/Institucion> ;
+                                                      rdfs:comment "Centro desde el que se organizan misiones católicas (doctrina dominica, etc.)."@es .
 
 
-###  http://www.ejemplo.org/georeligion/Ciudad
-<http://www.ejemplo.org/georeligion/Ciudad> rdf:type owl:Class ;
-                                            rdfs:subClassOf <http://www.ejemplo.org/georeligion/Lugar> .
+###  https://onto.digitalhumanities.digital/Ciudad
+<https://onto.digitalhumanities.digital/Ciudad> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://onto.digitalhumanities.digital/Lugar> .
 
 
-###  http://www.ejemplo.org/georeligion/Convento
-<http://www.ejemplo.org/georeligion/Convento> rdf:type owl:Class ;
-                                              rdfs:subClassOf <http://www.ejemplo.org/georeligion/Lugar> ;
-                                              rdfs:comment "Centro conventual de una orden religiosa."@es .
+###  https://onto.digitalhumanities.digital/Convento
+<https://onto.digitalhumanities.digital/Convento> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <https://onto.digitalhumanities.digital/Lugar> ;
+                                                  rdfs:comment "Centro conventual de una orden religiosa."@es .
 
 
-###  http://www.ejemplo.org/georeligion/Evento
-<http://www.ejemplo.org/georeligion/Evento> rdf:type owl:Class .
+###  https://onto.digitalhumanities.digital/Evento
+<https://onto.digitalhumanities.digital/Evento> rdf:type owl:Class .
 
 
-###  http://www.ejemplo.org/georeligion/Fundar
-<http://www.ejemplo.org/georeligion/Fundar> rdf:type owl:Class ;
-                                            rdfs:subClassOf <http://www.ejemplo.org/georeligion/Evento> ;
-                                            rdfs:comment "Acción de fundar un convento, iglesia u otra institución vinculada a una Orden religiosa."@es .
+###  https://onto.digitalhumanities.digital/Fundar
+<https://onto.digitalhumanities.digital/Fundar> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://onto.digitalhumanities.digital/Evento> ;
+                                                rdfs:comment "Acción de fundar un convento, iglesia u otra institución vinculada a una Orden religiosa."@es .
 
 
-###  http://www.ejemplo.org/georeligion/HacerProfesion
-<http://www.ejemplo.org/georeligion/HacerProfesion> rdf:type owl:Class ;
-                                                    rdfs:subClassOf <http://www.ejemplo.org/georeligion/Evento> ;
-                                                    rdfs:comment "Acción de hacer profesión en una Orden religiosa."@es .
+###  https://onto.digitalhumanities.digital/HacerProfesion
+<https://onto.digitalhumanities.digital/HacerProfesion> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://onto.digitalhumanities.digital/Evento> ;
+                                                        rdfs:comment "Acción de hacer profesión en una Orden religiosa."@es .
 
 
-###  http://www.ejemplo.org/georeligion/Iglesia
-<http://www.ejemplo.org/georeligion/Iglesia> rdf:type owl:Class ;
-                                             rdfs:subClassOf <http://www.ejemplo.org/georeligion/CentroCulto> ;
-                                             rdfs:comment "Iglesia cristiana." .
+###  https://onto.digitalhumanities.digital/Iglesia
+<https://onto.digitalhumanities.digital/Iglesia> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <https://onto.digitalhumanities.digital/CentroCulto> ;
+                                                 rdfs:comment "Iglesia cristiana." .
 
 
-###  http://www.ejemplo.org/georeligion/IniciarNoviciado
-<http://www.ejemplo.org/georeligion/IniciarNoviciado> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://www.ejemplo.org/georeligion/Evento> ;
-                                                      rdfs:comment "Acción de iniciar el noviciado en una Orden religiosa."@es .
+###  https://onto.digitalhumanities.digital/IniciarNoviciado
+<https://onto.digitalhumanities.digital/IniciarNoviciado> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://onto.digitalhumanities.digital/Evento> ;
+                                                          rdfs:comment "Acción de iniciar el noviciado en una Orden religiosa."@es .
 
 
-###  http://www.ejemplo.org/georeligion/Institucion
-<http://www.ejemplo.org/georeligion/Institucion> rdf:type owl:Class .
+###  https://onto.digitalhumanities.digital/Institucion
+<https://onto.digitalhumanities.digital/Institucion> rdf:type owl:Class .
 
 
-###  http://www.ejemplo.org/georeligion/Lengua
-<http://www.ejemplo.org/georeligion/Lengua> rdf:type owl:Class ;
-                                            rdfs:comment "Lengua en la que está producida una obra"@es .
+###  https://onto.digitalhumanities.digital/Lengua
+<https://onto.digitalhumanities.digital/Lengua> rdf:type owl:Class ;
+                                                rdfs:comment "Lengua en la que está producida una obra"@es .
 
 
-###  http://www.ejemplo.org/georeligion/Lugar
-<http://www.ejemplo.org/georeligion/Lugar> rdf:type owl:Class .
+###  https://onto.digitalhumanities.digital/Lugar
+<https://onto.digitalhumanities.digital/Lugar> rdf:type owl:Class .
 
 
-###  http://www.ejemplo.org/georeligion/MiembroOrden
-<http://www.ejemplo.org/georeligion/MiembroOrden> rdf:type owl:Class ;
-                                                  rdfs:subClassOf <http://www.ejemplo.org/georeligion/Persona> ;
-                                                  rdfs:comment "Hombre o mujer miembro de una Orden religiosa"@es .
+###  https://onto.digitalhumanities.digital/MiembroOrden
+<https://onto.digitalhumanities.digital/MiembroOrden> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://onto.digitalhumanities.digital/Persona> ;
+                                                      rdfs:comment "Hombre o mujer miembro de una Orden religiosa"@es .
 
 
-###  http://www.ejemplo.org/georeligion/Misionero
-<http://www.ejemplo.org/georeligion/Misionero> rdf:type owl:Class ;
-                                               rdfs:subClassOf <http://www.ejemplo.org/georeligion/Persona> ;
-                                               rdfs:comment "Misionero perteneciente a una Orden religiosa."@es .
+###  https://onto.digitalhumanities.digital/Misionero
+<https://onto.digitalhumanities.digital/Misionero> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <https://onto.digitalhumanities.digital/Persona> ;
+                                                   rdfs:comment "Misionero perteneciente a una Orden religiosa."@es .
 
 
-###  http://www.ejemplo.org/georeligion/Muerte
-<http://www.ejemplo.org/georeligion/Muerte> rdf:type owl:Class ;
-                                            rdfs:subClassOf <http://www.ejemplo.org/georeligion/Evento> ;
-                                            rdfs:comment "Evento de muerte de una persona"@es .
+###  https://onto.digitalhumanities.digital/Muerte
+<https://onto.digitalhumanities.digital/Muerte> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://onto.digitalhumanities.digital/Evento> ;
+                                                rdfs:comment "Evento de muerte de una persona"@es .
 
 
-###  http://www.ejemplo.org/georeligion/Nacimiento
-<http://www.ejemplo.org/georeligion/Nacimiento> rdf:type owl:Class ;
-                                                rdfs:subClassOf <http://www.ejemplo.org/georeligion/Evento> ;
-                                                rdfs:comment "Evento de nacimineto de una persona."@es .
+###  https://onto.digitalhumanities.digital/Nacimiento
+<https://onto.digitalhumanities.digital/Nacimiento> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <https://onto.digitalhumanities.digital/Evento> ;
+                                                    rdfs:comment "Evento de nacimineto de una persona."@es .
 
 
-###  http://www.ejemplo.org/georeligion/ObjetoLiturgico
-<http://www.ejemplo.org/georeligion/ObjetoLiturgico> rdf:type owl:Class ;
-                                                     rdfs:subClassOf <http://www.ejemplo.org/georeligion/ObjetoMaterial> .
+###  https://onto.digitalhumanities.digital/ObjetoLiturgico
+<https://onto.digitalhumanities.digital/ObjetoLiturgico> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://onto.digitalhumanities.digital/ObjetoMaterial> .
 
 
-###  http://www.ejemplo.org/georeligion/ObjetoMaterial
-<http://www.ejemplo.org/georeligion/ObjetoMaterial> rdf:type owl:Class .
+###  https://onto.digitalhumanities.digital/ObjetoMaterial
+<https://onto.digitalhumanities.digital/ObjetoMaterial> rdf:type owl:Class .
 
 
-###  http://www.ejemplo.org/georeligion/ObraEscrita
-<http://www.ejemplo.org/georeligion/ObraEscrita> rdf:type owl:Class ;
-                                                 rdfs:subClassOf <http://www.ejemplo.org/georeligion/ObjetoMaterial> ;
-                                                 rdfs:comment "Obra escrita de cualquier tipo, formato y tema (publicada, en manuscrito, etc.)"@es .
+###  https://onto.digitalhumanities.digital/ObraEscrita
+<https://onto.digitalhumanities.digital/ObraEscrita> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://onto.digitalhumanities.digital/ObjetoMaterial> ;
+                                                     rdfs:comment "Obra escrita de cualquier tipo, formato y tema (publicada, en manuscrito, etc.)"@es .
 
 
-###  http://www.ejemplo.org/georeligion/OrdenReligiosa
-<http://www.ejemplo.org/georeligion/OrdenReligiosa> rdf:type owl:Class ;
-                                                    rdfs:subClassOf <http://www.ejemplo.org/georeligion/Institucion> ;
-                                                    rdfs:comment "Institución de orden religiosa en sentido amplio (católica, budista, musulmana)."@es .
+###  https://onto.digitalhumanities.digital/OrdenReligiosa
+<https://onto.digitalhumanities.digital/OrdenReligiosa> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://onto.digitalhumanities.digital/Institucion> ;
+                                                        rdfs:comment "Institución de orden religiosa en sentido amplio (católica, budista, musulmana)."@es .
 
 
-###  http://www.ejemplo.org/georeligion/Persona
-<http://www.ejemplo.org/georeligion/Persona> rdf:type owl:Class .
+###  https://onto.digitalhumanities.digital/Persona
+<https://onto.digitalhumanities.digital/Persona> rdf:type owl:Class .
 
 
-###  http://www.ejemplo.org/georeligion/ProducirObra
-<http://www.ejemplo.org/georeligion/ProducirObra> rdf:type owl:Class ;
-                                                  rdfs:subClassOf <http://www.ejemplo.org/georeligion/Evento> ;
-                                                  rdfs:comment "Evento de producir una obra por parte de una o varias personas."@es .
+###  https://onto.digitalhumanities.digital/ProducirObra
+<https://onto.digitalhumanities.digital/ProducirObra> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <https://onto.digitalhumanities.digital/Evento> ;
+                                                      rdfs:comment "Evento de producir una obra por parte de una o varias personas."@es .
 
 
-###  http://www.ejemplo.org/georeligion/ProvinciaOrden
-<http://www.ejemplo.org/georeligion/ProvinciaOrden> rdf:type owl:Class ;
-                                                    rdfs:subClassOf <http://www.ejemplo.org/georeligion/Institucion> ;
-                                                    rdfs:comment "Provncia o estructuras institucionales geográficas similares de las órdenes religiosas católicas."@es .
+###  https://onto.digitalhumanities.digital/ProvinciaOrden
+<https://onto.digitalhumanities.digital/ProvinciaOrden> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://onto.digitalhumanities.digital/Institucion> ;
+                                                        rdfs:comment "Provncia o estructuras institucionales geográficas similares de las órdenes religiosas católicas."@es .
 
 
-###  http://www.ejemplo.org/georeligion/Reliquia
-<http://www.ejemplo.org/georeligion/Reliquia> rdf:type owl:Class ;
-                                              rdfs:subClassOf <http://www.ejemplo.org/georeligion/ObjetoMaterial> .
+###  https://onto.digitalhumanities.digital/Reliquia
+<https://onto.digitalhumanities.digital/Reliquia> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <https://onto.digitalhumanities.digital/ObjetoMaterial> .
 
 
-###  http://www.ejemplo.org/georeligion/Viaje
-<http://www.ejemplo.org/georeligion/Viaje> rdf:type owl:Class ;
-                                           rdfs:subClassOf <http://www.ejemplo.org/georeligion/Evento> ;
-                                           rdfs:comment "Viaje de una o varias personas de un origen a un destino."@es .
+###  https://onto.digitalhumanities.digital/Viaje
+<https://onto.digitalhumanities.digital/Viaje> rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://onto.digitalhumanities.digital/Evento> ;
+                                               rdfs:comment "Viaje de una o varias personas de un origen a un destino."@es .
 
 
-###  http://www.ejemplo.org/georeligion/ZonaMision
-<http://www.ejemplo.org/georeligion/ZonaMision> rdf:type owl:Class ;
-                                                rdfs:subClassOf <http://www.ejemplo.org/georeligion/Lugar> ;
-                                                rdfs:comment "Lugar geográfico de misión de entidad geográfica variable."@es .
+###  https://onto.digitalhumanities.digital/ZonaMision
+<https://onto.digitalhumanities.digital/ZonaMision> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <https://onto.digitalhumanities.digital/Lugar> ;
+                                                    rdfs:comment "Lugar geográfico de misión de entidad geográfica variable."@es .
 
 
 #################################################################
 #    Individuals
 #################################################################
 
-###  http://www.ejemplo.org/georeligion/Espanol
-<http://www.ejemplo.org/georeligion/Espanol> rdf:type owl:NamedIndividual ,
-                                                      <http://www.ejemplo.org/georeligion/Lengua> .
+###  https://onto.digitalhumanities.digital/Espanol
+<https://onto.digitalhumanities.digital/Espanol> rdf:type owl:NamedIndividual ,
+                                                          <https://onto.digitalhumanities.digital/Lengua> .
 
 
-###  http://www.ejemplo.org/georeligion/Frances
-<http://www.ejemplo.org/georeligion/Frances> rdf:type owl:NamedIndividual ,
-                                                      <http://www.ejemplo.org/georeligion/Lengua> .
+###  https://onto.digitalhumanities.digital/Frances
+<https://onto.digitalhumanities.digital/Frances> rdf:type owl:NamedIndividual ,
+                                                          <https://onto.digitalhumanities.digital/Lengua> .
 
 
-###  http://www.ejemplo.org/georeligion/Latin
-<http://www.ejemplo.org/georeligion/Latin> rdf:type owl:NamedIndividual ,
-                                                    <http://www.ejemplo.org/georeligion/Lengua> .
+###  https://onto.digitalhumanities.digital/Latin
+<https://onto.digitalhumanities.digital/Latin> rdf:type owl:NamedIndividual ,
+                                                        <https://onto.digitalhumanities.digital/Lengua> .
 
 
-###  http://www.ejemplo.org/georeligion/Maya
-<http://www.ejemplo.org/georeligion/Maya> rdf:type owl:NamedIndividual ,
-                                                   <http://www.ejemplo.org/georeligion/Lengua> .
+###  https://onto.digitalhumanities.digital/Maya
+<https://onto.digitalhumanities.digital/Maya> rdf:type owl:NamedIndividual ,
+                                                       <https://onto.digitalhumanities.digital/Lengua> .
 
 
 #################################################################
@@ -322,28 +322,28 @@
 #################################################################
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( <http://www.ejemplo.org/georeligion/CentroMision>
-                <http://www.ejemplo.org/georeligion/Iglesia>
-                <http://www.ejemplo.org/georeligion/OrdenReligiosa>
-                <http://www.ejemplo.org/georeligion/ProvinciaOrden>
+  owl:members ( <https://onto.digitalhumanities.digital/CentroMision>
+                <https://onto.digitalhumanities.digital/Iglesia>
+                <https://onto.digitalhumanities.digital/OrdenReligiosa>
+                <https://onto.digitalhumanities.digital/ProvinciaOrden>
               )
 ] .
 
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( <http://www.ejemplo.org/georeligion/Ciudad>
-                <http://www.ejemplo.org/georeligion/Convento>
-                <http://www.ejemplo.org/georeligion/ZonaMision>
+  owl:members ( <https://onto.digitalhumanities.digital/Ciudad>
+                <https://onto.digitalhumanities.digital/Convento>
+                <https://onto.digitalhumanities.digital/ZonaMision>
               )
 ] .
 
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( <http://www.ejemplo.org/georeligion/Evento>
-                <http://www.ejemplo.org/georeligion/Institucion>
-                <http://www.ejemplo.org/georeligion/Lugar>
-                <http://www.ejemplo.org/georeligion/ObjetoMaterial>
-                <http://www.ejemplo.org/georeligion/Persona>
+  owl:members ( <https://onto.digitalhumanities.digital/Evento>
+                <https://onto.digitalhumanities.digital/Institucion>
+                <https://onto.digitalhumanities.digital/Lugar>
+                <https://onto.digitalhumanities.digital/ObjetoMaterial>
+                <https://onto.digitalhumanities.digital/Persona>
               )
 ] .
 

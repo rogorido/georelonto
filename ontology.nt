@@ -1,9 +1,9 @@
-<http://www.ejemplo.org/georeligion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://www.ejemplo.org/georeligion> <http://purl.org/dc/terms/created> "2025-07-09+06:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://www.ejemplo.org/georeligion> <http://purl.org/dc/terms/creator> "Igor Sosa Mayor" .
-<http://www.ejemplo.org/georeligion> <http://purl.org/dc/terms/title> "Ontology on religious orders in the Early modern period"@en .
-<http://www.ejemplo.org/georeligion> <http://purl.org/dc/terms/title> "Ontología de órdenes religiosas en la Edad Moderna"@es .
-<http://www.ejemplo.org/georeligion> <http://www.w3.org/2002/07/owl#versionInfo> "0.1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://onto.digitalhumanities.digital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://onto.digitalhumanities.digital> <http://purl.org/dc/terms/created> "\"2025-07-09+06:00\""^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://onto.digitalhumanities.digital> <http://purl.org/dc/terms/creator> "Igor Sosa Mayor" .
+<https://onto.digitalhumanities.digital> <http://purl.org/dc/terms/title> "Ontology on religious orders in the Early modern period"@en .
+<https://onto.digitalhumanities.digital> <http://purl.org/dc/terms/title> "Ontología de órdenes religiosas en la Edad Moderna"@es .
+<https://onto.digitalhumanities.digital> <http://www.w3.org/2002/07/owl#versionInfo> "0.1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 # 
 # 
 # #################################################################
@@ -31,71 +31,71 @@
 # #################################################################
 # 
 # 
-# http://www.ejemplo.org/georeligion/destinoViaje
-<http://www.ejemplo.org/georeligion/destinoViaje> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.ejemplo.org/georeligion/destinoViaje> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://www.ejemplo.org/georeligion/destinoViaje> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.ejemplo.org/georeligion/Persona> .
-<http://www.ejemplo.org/georeligion/destinoViaje> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.ejemplo.org/georeligion/Lugar> .
-<http://www.ejemplo.org/georeligion/destinoViaje> <http://www.w3.org/2002/07/owl#propertyDisjointWith> <http://www.ejemplo.org/georeligion/origenViaje> .
-<http://www.ejemplo.org/georeligion/destinoViaje> <http://www.w3.org/2000/01/rdf-schema#comment> "Designa el destino del viaje."@es .
+# https://onto.digitalhumanities.digital/destinoViaje
+<https://onto.digitalhumanities.digital/destinoViaje> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://onto.digitalhumanities.digital/destinoViaje> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://onto.digitalhumanities.digital/destinoViaje> <http://www.w3.org/2000/01/rdf-schema#domain> <https://onto.digitalhumanities.digital/Persona> .
+<https://onto.digitalhumanities.digital/destinoViaje> <http://www.w3.org/2000/01/rdf-schema#range> <https://onto.digitalhumanities.digital/Lugar> .
+<https://onto.digitalhumanities.digital/destinoViaje> <http://www.w3.org/2002/07/owl#propertyDisjointWith> <https://onto.digitalhumanities.digital/origenViaje> .
+<https://onto.digitalhumanities.digital/destinoViaje> <http://www.w3.org/2000/01/rdf-schema#comment> "Designa el destino del viaje."@es .
 # 
-# http://www.ejemplo.org/georeligion/esMuerteDe
-<http://www.ejemplo.org/georeligion/esMuerteDe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.ejemplo.org/georeligion/esMuerteDe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
-<http://www.ejemplo.org/georeligion/esMuerteDe> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.ejemplo.org/georeligion/Muerte> .
-<http://www.ejemplo.org/georeligion/esMuerteDe> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.ejemplo.org/georeligion/Persona> .
+# https://onto.digitalhumanities.digital/esMuerteDe
+<https://onto.digitalhumanities.digital/esMuerteDe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://onto.digitalhumanities.digital/esMuerteDe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://onto.digitalhumanities.digital/esMuerteDe> <http://www.w3.org/2000/01/rdf-schema#domain> <https://onto.digitalhumanities.digital/Muerte> .
+<https://onto.digitalhumanities.digital/esMuerteDe> <http://www.w3.org/2000/01/rdf-schema#range> <https://onto.digitalhumanities.digital/Persona> .
 # 
-# http://www.ejemplo.org/georeligion/esNaciminetoDe
-<http://www.ejemplo.org/georeligion/esNaciminetoDe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.ejemplo.org/georeligion/esNaciminetoDe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
-<http://www.ejemplo.org/georeligion/esNaciminetoDe> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.ejemplo.org/georeligion/Nacimiento> .
-<http://www.ejemplo.org/georeligion/esNaciminetoDe> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.ejemplo.org/georeligion/Persona> .
+# https://onto.digitalhumanities.digital/esNaciminetoDe
+<https://onto.digitalhumanities.digital/esNaciminetoDe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://onto.digitalhumanities.digital/esNaciminetoDe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://onto.digitalhumanities.digital/esNaciminetoDe> <http://www.w3.org/2000/01/rdf-schema#domain> <https://onto.digitalhumanities.digital/Nacimiento> .
+<https://onto.digitalhumanities.digital/esNaciminetoDe> <http://www.w3.org/2000/01/rdf-schema#range> <https://onto.digitalhumanities.digital/Persona> .
 # 
-# http://www.ejemplo.org/georeligion/origenViaje
-<http://www.ejemplo.org/georeligion/origenViaje> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.ejemplo.org/georeligion/origenViaje> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://www.ejemplo.org/georeligion/origenViaje> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.ejemplo.org/georeligion/Persona> .
-<http://www.ejemplo.org/georeligion/origenViaje> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.ejemplo.org/georeligion/Lugar> .
-<http://www.ejemplo.org/georeligion/origenViaje> <http://www.w3.org/2000/01/rdf-schema#comment> "Designa el origen del viaje."@es .
+# https://onto.digitalhumanities.digital/origenViaje
+<https://onto.digitalhumanities.digital/origenViaje> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://onto.digitalhumanities.digital/origenViaje> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://onto.digitalhumanities.digital/origenViaje> <http://www.w3.org/2000/01/rdf-schema#domain> <https://onto.digitalhumanities.digital/Persona> .
+<https://onto.digitalhumanities.digital/origenViaje> <http://www.w3.org/2000/01/rdf-schema#range> <https://onto.digitalhumanities.digital/Lugar> .
+<https://onto.digitalhumanities.digital/origenViaje> <http://www.w3.org/2000/01/rdf-schema#comment> "Designa el origen del viaje."@es .
 # 
-# http://www.ejemplo.org/georeligion/perteneceAOrden
-<http://www.ejemplo.org/georeligion/perteneceAOrden> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.ejemplo.org/georeligion/perteneceAOrden> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
-<http://www.ejemplo.org/georeligion/perteneceAOrden> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.ejemplo.org/georeligion/MiembroOrden> .
-<http://www.ejemplo.org/georeligion/perteneceAOrden> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.ejemplo.org/georeligion/OrdenReligiosa> .
-<http://www.ejemplo.org/georeligion/perteneceAOrden> <http://www.w3.org/2000/01/rdf-schema#comment> "Establece a qué orden religiosa pertenece el sujeto."@es .
+# https://onto.digitalhumanities.digital/perteneceAOrden
+<https://onto.digitalhumanities.digital/perteneceAOrden> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://onto.digitalhumanities.digital/perteneceAOrden> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://onto.digitalhumanities.digital/perteneceAOrden> <http://www.w3.org/2000/01/rdf-schema#domain> <https://onto.digitalhumanities.digital/MiembroOrden> .
+<https://onto.digitalhumanities.digital/perteneceAOrden> <http://www.w3.org/2000/01/rdf-schema#range> <https://onto.digitalhumanities.digital/OrdenReligiosa> .
+<https://onto.digitalhumanities.digital/perteneceAOrden> <http://www.w3.org/2000/01/rdf-schema#comment> "Establece a qué orden religiosa pertenece el sujeto."@es .
 # 
-# http://www.ejemplo.org/georeligion/perteneceAProvincia
-<http://www.ejemplo.org/georeligion/perteneceAProvincia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.ejemplo.org/georeligion/perteneceAProvincia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
-<http://www.ejemplo.org/georeligion/perteneceAProvincia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
-<http://www.ejemplo.org/georeligion/perteneceAProvincia> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.ejemplo.org/georeligion/Convento> .
-<http://www.ejemplo.org/georeligion/perteneceAProvincia> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.ejemplo.org/georeligion/ProvinciaOrden> .
-<http://www.ejemplo.org/georeligion/perteneceAProvincia> <http://www.w3.org/2000/01/rdf-schema#comment> "Provincia de la Orden a la que pertenece un convento"@es .
+# https://onto.digitalhumanities.digital/perteneceAProvincia
+<https://onto.digitalhumanities.digital/perteneceAProvincia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://onto.digitalhumanities.digital/perteneceAProvincia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://onto.digitalhumanities.digital/perteneceAProvincia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<https://onto.digitalhumanities.digital/perteneceAProvincia> <http://www.w3.org/2000/01/rdf-schema#domain> <https://onto.digitalhumanities.digital/Convento> .
+<https://onto.digitalhumanities.digital/perteneceAProvincia> <http://www.w3.org/2000/01/rdf-schema#range> <https://onto.digitalhumanities.digital/ProvinciaOrden> .
+<https://onto.digitalhumanities.digital/perteneceAProvincia> <http://www.w3.org/2000/01/rdf-schema#comment> "Provincia de la Orden a la que pertenece un convento"@es .
 # 
-# http://www.ejemplo.org/georeligion/produce
-<http://www.ejemplo.org/georeligion/produce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.ejemplo.org/georeligion/produce> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.ejemplo.org/georeligion/ProducirObra> .
-<http://www.ejemplo.org/georeligion/produce> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.ejemplo.org/georeligion/ObjetoMaterial> .
-<http://www.ejemplo.org/georeligion/produce> <http://www.w3.org/2000/01/rdf-schema#comment> "Indica la obra material que resulta de un evento de producción."@es .
+# https://onto.digitalhumanities.digital/produce
+<https://onto.digitalhumanities.digital/produce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://onto.digitalhumanities.digital/produce> <http://www.w3.org/2000/01/rdf-schema#domain> <https://onto.digitalhumanities.digital/ProducirObra> .
+<https://onto.digitalhumanities.digital/produce> <http://www.w3.org/2000/01/rdf-schema#range> <https://onto.digitalhumanities.digital/ObjetoMaterial> .
+<https://onto.digitalhumanities.digital/produce> <http://www.w3.org/2000/01/rdf-schema#comment> "Indica la obra material que resulta de un evento de producción."@es .
 # 
-# http://www.ejemplo.org/georeligion/profesaEn
-<http://www.ejemplo.org/georeligion/profesaEn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.ejemplo.org/georeligion/profesaEn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
-<http://www.ejemplo.org/georeligion/profesaEn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.ejemplo.org/georeligion/HacerProfesion> .
-<http://www.ejemplo.org/georeligion/profesaEn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.ejemplo.org/georeligion/Convento> .
-<http://www.ejemplo.org/georeligion/profesaEn> <http://www.w3.org/2000/01/rdf-schema#comment> "Indica el convento o lugar de profesión de miembros de las órdenes."@es .
+# https://onto.digitalhumanities.digital/profesaEn
+<https://onto.digitalhumanities.digital/profesaEn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://onto.digitalhumanities.digital/profesaEn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://onto.digitalhumanities.digital/profesaEn> <http://www.w3.org/2000/01/rdf-schema#domain> <https://onto.digitalhumanities.digital/HacerProfesion> .
+<https://onto.digitalhumanities.digital/profesaEn> <http://www.w3.org/2000/01/rdf-schema#range> <https://onto.digitalhumanities.digital/Convento> .
+<https://onto.digitalhumanities.digital/profesaEn> <http://www.w3.org/2000/01/rdf-schema#comment> "Indica el convento o lugar de profesión de miembros de las órdenes."@es .
 # 
-# http://www.ejemplo.org/georeligion/realizaEvento
-<http://www.ejemplo.org/georeligion/realizaEvento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.ejemplo.org/georeligion/realizaEvento> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.ejemplo.org/georeligion/Persona> .
-<http://www.ejemplo.org/georeligion/realizaEvento> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.ejemplo.org/georeligion/ProducirObra> .
-<http://www.ejemplo.org/georeligion/realizaEvento> <http://www.w3.org/2000/01/rdf-schema#comment> "Conecta una persona con un evento en el que participa activamente"@es .
+# https://onto.digitalhumanities.digital/realizaEvento
+<https://onto.digitalhumanities.digital/realizaEvento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://onto.digitalhumanities.digital/realizaEvento> <http://www.w3.org/2000/01/rdf-schema#domain> <https://onto.digitalhumanities.digital/Persona> .
+<https://onto.digitalhumanities.digital/realizaEvento> <http://www.w3.org/2000/01/rdf-schema#range> <https://onto.digitalhumanities.digital/ProducirObra> .
+<https://onto.digitalhumanities.digital/realizaEvento> <http://www.w3.org/2000/01/rdf-schema#comment> "Conecta una persona con un evento en el que participa activamente"@es .
 # 
-# http://www.ejemplo.org/georeligion/tieneLengua
-<http://www.ejemplo.org/georeligion/tieneLengua> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.ejemplo.org/georeligion/tieneLengua> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.ejemplo.org/georeligion/ObraEscrita> .
-<http://www.ejemplo.org/georeligion/tieneLengua> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.ejemplo.org/georeligion/Lengua> .
+# https://onto.digitalhumanities.digital/tieneLengua
+<https://onto.digitalhumanities.digital/tieneLengua> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://onto.digitalhumanities.digital/tieneLengua> <http://www.w3.org/2000/01/rdf-schema#domain> <https://onto.digitalhumanities.digital/ObraEscrita> .
+<https://onto.digitalhumanities.digital/tieneLengua> <http://www.w3.org/2000/01/rdf-schema#range> <https://onto.digitalhumanities.digital/Lengua> .
 # 
 # 
 # 
@@ -106,29 +106,29 @@
 # #################################################################
 # 
 # 
-# http://www.ejemplo.org/georeligion/estaPublicado
-<http://www.ejemplo.org/georeligion/estaPublicado> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.ejemplo.org/georeligion/estaPublicado> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.ejemplo.org/georeligion/ObraEscrita> .
-<http://www.ejemplo.org/georeligion/estaPublicado> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
-<http://www.ejemplo.org/georeligion/estaPublicado> <http://www.w3.org/2000/01/rdf-schema#comment> "Valor booleano que define si la obra se ha publicado o quedó en manuscrito."@es .
+# https://onto.digitalhumanities.digital/estaPublicado
+<https://onto.digitalhumanities.digital/estaPublicado> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://onto.digitalhumanities.digital/estaPublicado> <http://www.w3.org/2000/01/rdf-schema#domain> <https://onto.digitalhumanities.digital/ObraEscrita> .
+<https://onto.digitalhumanities.digital/estaPublicado> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://onto.digitalhumanities.digital/estaPublicado> <http://www.w3.org/2000/01/rdf-schema#comment> "Valor booleano que define si la obra se ha publicado o quedó en manuscrito."@es .
 # 
-# http://www.ejemplo.org/georeligion/fecha
-<http://www.ejemplo.org/georeligion/fecha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.ejemplo.org/georeligion/fecha> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.ejemplo.org/georeligion/Evento> .
-<http://www.ejemplo.org/georeligion/fecha> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://www.ejemplo.org/georeligion/fecha> <http://www.w3.org/2000/01/rdf-schema#comment> "Fecha en que ocurre el evento"@es .
+# https://onto.digitalhumanities.digital/fecha
+<https://onto.digitalhumanities.digital/fecha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://onto.digitalhumanities.digital/fecha> <http://www.w3.org/2000/01/rdf-schema#domain> <https://onto.digitalhumanities.digital/Evento> .
+<https://onto.digitalhumanities.digital/fecha> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://onto.digitalhumanities.digital/fecha> <http://www.w3.org/2000/01/rdf-schema#comment> "Fecha en que ocurre el evento"@es .
 # 
-# http://www.ejemplo.org/georeligion/motivoAbandono
-<http://www.ejemplo.org/georeligion/motivoAbandono> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.ejemplo.org/georeligion/motivoAbandono> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.ejemplo.org/georeligion/Abandonar> .
-<http://www.ejemplo.org/georeligion/motivoAbandono> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://www.ejemplo.org/georeligion/motivoAbandono> <http://www.w3.org/2000/01/rdf-schema#comment> "Motivo(s) del abandono de una persona en misión." .
+# https://onto.digitalhumanities.digital/motivoAbandono
+<https://onto.digitalhumanities.digital/motivoAbandono> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://onto.digitalhumanities.digital/motivoAbandono> <http://www.w3.org/2000/01/rdf-schema#domain> <https://onto.digitalhumanities.digital/Abandonar> .
+<https://onto.digitalhumanities.digital/motivoAbandono> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://onto.digitalhumanities.digital/motivoAbandono> <http://www.w3.org/2000/01/rdf-schema#comment> "Motivo(s) del abandono de una persona en misión." .
 # 
-# http://www.ejemplo.org/georeligion/tieneIlustraciones
-<http://www.ejemplo.org/georeligion/tieneIlustraciones> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.ejemplo.org/georeligion/tieneIlustraciones> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.ejemplo.org/georeligion/ObraEscrita> .
-<http://www.ejemplo.org/georeligion/tieneIlustraciones> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
-<http://www.ejemplo.org/georeligion/tieneIlustraciones> <http://www.w3.org/2000/01/rdf-schema#comment> "Valor booleano sobre si la obra tiene ilustraciones."@es .
+# https://onto.digitalhumanities.digital/tieneIlustraciones
+<https://onto.digitalhumanities.digital/tieneIlustraciones> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://onto.digitalhumanities.digital/tieneIlustraciones> <http://www.w3.org/2000/01/rdf-schema#domain> <https://onto.digitalhumanities.digital/ObraEscrita> .
+<https://onto.digitalhumanities.digital/tieneIlustraciones> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://onto.digitalhumanities.digital/tieneIlustraciones> <http://www.w3.org/2000/01/rdf-schema#comment> "Valor booleano sobre si la obra tiene ilustraciones."@es .
 # 
 # 
 # 
@@ -139,126 +139,126 @@
 # #################################################################
 # 
 # 
-# http://www.ejemplo.org/georeligion/Abandonar
-<http://www.ejemplo.org/georeligion/Abandonar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.ejemplo.org/georeligion/Abandonar> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ejemplo.org/georeligion/Evento> .
-<http://www.ejemplo.org/georeligion/Abandonar> <http://www.w3.org/2000/01/rdf-schema#comment> "Acción de abanondar una Orden religiosa, una misión, etc."@es .
+# https://onto.digitalhumanities.digital/Abandonar
+<https://onto.digitalhumanities.digital/Abandonar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://onto.digitalhumanities.digital/Abandonar> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://onto.digitalhumanities.digital/Evento> .
+<https://onto.digitalhumanities.digital/Abandonar> <http://www.w3.org/2000/01/rdf-schema#comment> "Acción de abanondar una Orden religiosa, una misión, etc."@es .
 # 
-# http://www.ejemplo.org/georeligion/CentroCulto
-<http://www.ejemplo.org/georeligion/CentroCulto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.ejemplo.org/georeligion/CentroCulto> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ejemplo.org/georeligion/Institucion> .
-<http://www.ejemplo.org/georeligion/CentroCulto> <http://www.w3.org/2000/01/rdf-schema#comment> "Centro de culto de una religión (iglesia cristiana, mezquita musulmana, etc.)"@es .
+# https://onto.digitalhumanities.digital/CentroCulto
+<https://onto.digitalhumanities.digital/CentroCulto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://onto.digitalhumanities.digital/CentroCulto> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://onto.digitalhumanities.digital/Institucion> .
+<https://onto.digitalhumanities.digital/CentroCulto> <http://www.w3.org/2000/01/rdf-schema#comment> "Centro de culto de una religión (iglesia cristiana, mezquita musulmana, etc.)"@es .
 # 
-# http://www.ejemplo.org/georeligion/CentroMision
-<http://www.ejemplo.org/georeligion/CentroMision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.ejemplo.org/georeligion/CentroMision> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ejemplo.org/georeligion/Institucion> .
-<http://www.ejemplo.org/georeligion/CentroMision> <http://www.w3.org/2000/01/rdf-schema#comment> "Centro desde el que se organizan misiones católicas (doctrina dominica, etc.)."@es .
+# https://onto.digitalhumanities.digital/CentroMision
+<https://onto.digitalhumanities.digital/CentroMision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://onto.digitalhumanities.digital/CentroMision> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://onto.digitalhumanities.digital/Institucion> .
+<https://onto.digitalhumanities.digital/CentroMision> <http://www.w3.org/2000/01/rdf-schema#comment> "Centro desde el que se organizan misiones católicas (doctrina dominica, etc.)."@es .
 # 
-# http://www.ejemplo.org/georeligion/Ciudad
-<http://www.ejemplo.org/georeligion/Ciudad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.ejemplo.org/georeligion/Ciudad> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ejemplo.org/georeligion/Lugar> .
+# https://onto.digitalhumanities.digital/Ciudad
+<https://onto.digitalhumanities.digital/Ciudad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://onto.digitalhumanities.digital/Ciudad> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://onto.digitalhumanities.digital/Lugar> .
 # 
-# http://www.ejemplo.org/georeligion/Convento
-<http://www.ejemplo.org/georeligion/Convento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.ejemplo.org/georeligion/Convento> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ejemplo.org/georeligion/Lugar> .
-<http://www.ejemplo.org/georeligion/Convento> <http://www.w3.org/2000/01/rdf-schema#comment> "Centro conventual de una orden religiosa."@es .
+# https://onto.digitalhumanities.digital/Convento
+<https://onto.digitalhumanities.digital/Convento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://onto.digitalhumanities.digital/Convento> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://onto.digitalhumanities.digital/Lugar> .
+<https://onto.digitalhumanities.digital/Convento> <http://www.w3.org/2000/01/rdf-schema#comment> "Centro conventual de una orden religiosa."@es .
 # 
-# http://www.ejemplo.org/georeligion/Evento
-<http://www.ejemplo.org/georeligion/Evento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# https://onto.digitalhumanities.digital/Evento
+<https://onto.digitalhumanities.digital/Evento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
-# http://www.ejemplo.org/georeligion/Fundar
-<http://www.ejemplo.org/georeligion/Fundar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.ejemplo.org/georeligion/Fundar> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ejemplo.org/georeligion/Evento> .
-<http://www.ejemplo.org/georeligion/Fundar> <http://www.w3.org/2000/01/rdf-schema#comment> "Acción de fundar un convento, iglesia u otra institución vinculada a una Orden religiosa."@es .
+# https://onto.digitalhumanities.digital/Fundar
+<https://onto.digitalhumanities.digital/Fundar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://onto.digitalhumanities.digital/Fundar> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://onto.digitalhumanities.digital/Evento> .
+<https://onto.digitalhumanities.digital/Fundar> <http://www.w3.org/2000/01/rdf-schema#comment> "Acción de fundar un convento, iglesia u otra institución vinculada a una Orden religiosa."@es .
 # 
-# http://www.ejemplo.org/georeligion/HacerProfesion
-<http://www.ejemplo.org/georeligion/HacerProfesion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.ejemplo.org/georeligion/HacerProfesion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ejemplo.org/georeligion/Evento> .
-<http://www.ejemplo.org/georeligion/HacerProfesion> <http://www.w3.org/2000/01/rdf-schema#comment> "Acción de hacer profesión en una Orden religiosa."@es .
+# https://onto.digitalhumanities.digital/HacerProfesion
+<https://onto.digitalhumanities.digital/HacerProfesion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://onto.digitalhumanities.digital/HacerProfesion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://onto.digitalhumanities.digital/Evento> .
+<https://onto.digitalhumanities.digital/HacerProfesion> <http://www.w3.org/2000/01/rdf-schema#comment> "Acción de hacer profesión en una Orden religiosa."@es .
 # 
-# http://www.ejemplo.org/georeligion/Iglesia
-<http://www.ejemplo.org/georeligion/Iglesia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.ejemplo.org/georeligion/Iglesia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ejemplo.org/georeligion/CentroCulto> .
-<http://www.ejemplo.org/georeligion/Iglesia> <http://www.w3.org/2000/01/rdf-schema#comment> "Iglesia cristiana." .
+# https://onto.digitalhumanities.digital/Iglesia
+<https://onto.digitalhumanities.digital/Iglesia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://onto.digitalhumanities.digital/Iglesia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://onto.digitalhumanities.digital/CentroCulto> .
+<https://onto.digitalhumanities.digital/Iglesia> <http://www.w3.org/2000/01/rdf-schema#comment> "Iglesia cristiana." .
 # 
-# http://www.ejemplo.org/georeligion/IniciarNoviciado
-<http://www.ejemplo.org/georeligion/IniciarNoviciado> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.ejemplo.org/georeligion/IniciarNoviciado> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ejemplo.org/georeligion/Evento> .
-<http://www.ejemplo.org/georeligion/IniciarNoviciado> <http://www.w3.org/2000/01/rdf-schema#comment> "Acción de iniciar el noviciado en una Orden religiosa."@es .
+# https://onto.digitalhumanities.digital/IniciarNoviciado
+<https://onto.digitalhumanities.digital/IniciarNoviciado> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://onto.digitalhumanities.digital/IniciarNoviciado> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://onto.digitalhumanities.digital/Evento> .
+<https://onto.digitalhumanities.digital/IniciarNoviciado> <http://www.w3.org/2000/01/rdf-schema#comment> "Acción de iniciar el noviciado en una Orden religiosa."@es .
 # 
-# http://www.ejemplo.org/georeligion/Institucion
-<http://www.ejemplo.org/georeligion/Institucion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# https://onto.digitalhumanities.digital/Institucion
+<https://onto.digitalhumanities.digital/Institucion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
-# http://www.ejemplo.org/georeligion/Lengua
-<http://www.ejemplo.org/georeligion/Lengua> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.ejemplo.org/georeligion/Lengua> <http://www.w3.org/2000/01/rdf-schema#comment> "Lengua en la que está producida una obra"@es .
+# https://onto.digitalhumanities.digital/Lengua
+<https://onto.digitalhumanities.digital/Lengua> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://onto.digitalhumanities.digital/Lengua> <http://www.w3.org/2000/01/rdf-schema#comment> "Lengua en la que está producida una obra"@es .
 # 
-# http://www.ejemplo.org/georeligion/Lugar
-<http://www.ejemplo.org/georeligion/Lugar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# https://onto.digitalhumanities.digital/Lugar
+<https://onto.digitalhumanities.digital/Lugar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
-# http://www.ejemplo.org/georeligion/MiembroOrden
-<http://www.ejemplo.org/georeligion/MiembroOrden> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.ejemplo.org/georeligion/MiembroOrden> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ejemplo.org/georeligion/Persona> .
-<http://www.ejemplo.org/georeligion/MiembroOrden> <http://www.w3.org/2000/01/rdf-schema#comment> "Hombre o mujer miembro de una Orden religiosa"@es .
+# https://onto.digitalhumanities.digital/MiembroOrden
+<https://onto.digitalhumanities.digital/MiembroOrden> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://onto.digitalhumanities.digital/MiembroOrden> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://onto.digitalhumanities.digital/Persona> .
+<https://onto.digitalhumanities.digital/MiembroOrden> <http://www.w3.org/2000/01/rdf-schema#comment> "Hombre o mujer miembro de una Orden religiosa"@es .
 # 
-# http://www.ejemplo.org/georeligion/Misionero
-<http://www.ejemplo.org/georeligion/Misionero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.ejemplo.org/georeligion/Misionero> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ejemplo.org/georeligion/Persona> .
-<http://www.ejemplo.org/georeligion/Misionero> <http://www.w3.org/2000/01/rdf-schema#comment> "Misionero perteneciente a una Orden religiosa."@es .
+# https://onto.digitalhumanities.digital/Misionero
+<https://onto.digitalhumanities.digital/Misionero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://onto.digitalhumanities.digital/Misionero> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://onto.digitalhumanities.digital/Persona> .
+<https://onto.digitalhumanities.digital/Misionero> <http://www.w3.org/2000/01/rdf-schema#comment> "Misionero perteneciente a una Orden religiosa."@es .
 # 
-# http://www.ejemplo.org/georeligion/Muerte
-<http://www.ejemplo.org/georeligion/Muerte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.ejemplo.org/georeligion/Muerte> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ejemplo.org/georeligion/Evento> .
-<http://www.ejemplo.org/georeligion/Muerte> <http://www.w3.org/2000/01/rdf-schema#comment> "Evento de muerte de una persona"@es .
+# https://onto.digitalhumanities.digital/Muerte
+<https://onto.digitalhumanities.digital/Muerte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://onto.digitalhumanities.digital/Muerte> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://onto.digitalhumanities.digital/Evento> .
+<https://onto.digitalhumanities.digital/Muerte> <http://www.w3.org/2000/01/rdf-schema#comment> "Evento de muerte de una persona"@es .
 # 
-# http://www.ejemplo.org/georeligion/Nacimiento
-<http://www.ejemplo.org/georeligion/Nacimiento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.ejemplo.org/georeligion/Nacimiento> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ejemplo.org/georeligion/Evento> .
-<http://www.ejemplo.org/georeligion/Nacimiento> <http://www.w3.org/2000/01/rdf-schema#comment> "Evento de nacimineto de una persona."@es .
+# https://onto.digitalhumanities.digital/Nacimiento
+<https://onto.digitalhumanities.digital/Nacimiento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://onto.digitalhumanities.digital/Nacimiento> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://onto.digitalhumanities.digital/Evento> .
+<https://onto.digitalhumanities.digital/Nacimiento> <http://www.w3.org/2000/01/rdf-schema#comment> "Evento de nacimineto de una persona."@es .
 # 
-# http://www.ejemplo.org/georeligion/ObjetoLiturgico
-<http://www.ejemplo.org/georeligion/ObjetoLiturgico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.ejemplo.org/georeligion/ObjetoLiturgico> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ejemplo.org/georeligion/ObjetoMaterial> .
+# https://onto.digitalhumanities.digital/ObjetoLiturgico
+<https://onto.digitalhumanities.digital/ObjetoLiturgico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://onto.digitalhumanities.digital/ObjetoLiturgico> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://onto.digitalhumanities.digital/ObjetoMaterial> .
 # 
-# http://www.ejemplo.org/georeligion/ObjetoMaterial
-<http://www.ejemplo.org/georeligion/ObjetoMaterial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# https://onto.digitalhumanities.digital/ObjetoMaterial
+<https://onto.digitalhumanities.digital/ObjetoMaterial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
-# http://www.ejemplo.org/georeligion/ObraEscrita
-<http://www.ejemplo.org/georeligion/ObraEscrita> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.ejemplo.org/georeligion/ObraEscrita> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ejemplo.org/georeligion/ObjetoMaterial> .
-<http://www.ejemplo.org/georeligion/ObraEscrita> <http://www.w3.org/2000/01/rdf-schema#comment> "Obra escrita de cualquier tipo, formato y tema (publicada, en manuscrito, etc.)"@es .
+# https://onto.digitalhumanities.digital/ObraEscrita
+<https://onto.digitalhumanities.digital/ObraEscrita> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://onto.digitalhumanities.digital/ObraEscrita> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://onto.digitalhumanities.digital/ObjetoMaterial> .
+<https://onto.digitalhumanities.digital/ObraEscrita> <http://www.w3.org/2000/01/rdf-schema#comment> "Obra escrita de cualquier tipo, formato y tema (publicada, en manuscrito, etc.)"@es .
 # 
-# http://www.ejemplo.org/georeligion/OrdenReligiosa
-<http://www.ejemplo.org/georeligion/OrdenReligiosa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.ejemplo.org/georeligion/OrdenReligiosa> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ejemplo.org/georeligion/Institucion> .
-<http://www.ejemplo.org/georeligion/OrdenReligiosa> <http://www.w3.org/2000/01/rdf-schema#comment> "Institución de orden religiosa en sentido amplio (católica, budista, musulmana)."@es .
+# https://onto.digitalhumanities.digital/OrdenReligiosa
+<https://onto.digitalhumanities.digital/OrdenReligiosa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://onto.digitalhumanities.digital/OrdenReligiosa> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://onto.digitalhumanities.digital/Institucion> .
+<https://onto.digitalhumanities.digital/OrdenReligiosa> <http://www.w3.org/2000/01/rdf-schema#comment> "Institución de orden religiosa en sentido amplio (católica, budista, musulmana)."@es .
 # 
-# http://www.ejemplo.org/georeligion/Persona
-<http://www.ejemplo.org/georeligion/Persona> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# https://onto.digitalhumanities.digital/Persona
+<https://onto.digitalhumanities.digital/Persona> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
-# http://www.ejemplo.org/georeligion/ProducirObra
-<http://www.ejemplo.org/georeligion/ProducirObra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.ejemplo.org/georeligion/ProducirObra> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ejemplo.org/georeligion/Evento> .
-<http://www.ejemplo.org/georeligion/ProducirObra> <http://www.w3.org/2000/01/rdf-schema#comment> "Evento de producir una obra por parte de una o varias personas."@es .
+# https://onto.digitalhumanities.digital/ProducirObra
+<https://onto.digitalhumanities.digital/ProducirObra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://onto.digitalhumanities.digital/ProducirObra> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://onto.digitalhumanities.digital/Evento> .
+<https://onto.digitalhumanities.digital/ProducirObra> <http://www.w3.org/2000/01/rdf-schema#comment> "Evento de producir una obra por parte de una o varias personas."@es .
 # 
-# http://www.ejemplo.org/georeligion/ProvinciaOrden
-<http://www.ejemplo.org/georeligion/ProvinciaOrden> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.ejemplo.org/georeligion/ProvinciaOrden> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ejemplo.org/georeligion/Institucion> .
-<http://www.ejemplo.org/georeligion/ProvinciaOrden> <http://www.w3.org/2000/01/rdf-schema#comment> "Provncia o estructuras institucionales geográficas similares de las órdenes religiosas católicas."@es .
+# https://onto.digitalhumanities.digital/ProvinciaOrden
+<https://onto.digitalhumanities.digital/ProvinciaOrden> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://onto.digitalhumanities.digital/ProvinciaOrden> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://onto.digitalhumanities.digital/Institucion> .
+<https://onto.digitalhumanities.digital/ProvinciaOrden> <http://www.w3.org/2000/01/rdf-schema#comment> "Provncia o estructuras institucionales geográficas similares de las órdenes religiosas católicas."@es .
 # 
-# http://www.ejemplo.org/georeligion/Reliquia
-<http://www.ejemplo.org/georeligion/Reliquia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.ejemplo.org/georeligion/Reliquia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ejemplo.org/georeligion/ObjetoMaterial> .
+# https://onto.digitalhumanities.digital/Reliquia
+<https://onto.digitalhumanities.digital/Reliquia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://onto.digitalhumanities.digital/Reliquia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://onto.digitalhumanities.digital/ObjetoMaterial> .
 # 
-# http://www.ejemplo.org/georeligion/Viaje
-<http://www.ejemplo.org/georeligion/Viaje> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.ejemplo.org/georeligion/Viaje> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ejemplo.org/georeligion/Evento> .
-<http://www.ejemplo.org/georeligion/Viaje> <http://www.w3.org/2000/01/rdf-schema#comment> "Viaje de una o varias personas de un origen a un destino."@es .
+# https://onto.digitalhumanities.digital/Viaje
+<https://onto.digitalhumanities.digital/Viaje> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://onto.digitalhumanities.digital/Viaje> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://onto.digitalhumanities.digital/Evento> .
+<https://onto.digitalhumanities.digital/Viaje> <http://www.w3.org/2000/01/rdf-schema#comment> "Viaje de una o varias personas de un origen a un destino."@es .
 # 
-# http://www.ejemplo.org/georeligion/ZonaMision
-<http://www.ejemplo.org/georeligion/ZonaMision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.ejemplo.org/georeligion/ZonaMision> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ejemplo.org/georeligion/Lugar> .
-<http://www.ejemplo.org/georeligion/ZonaMision> <http://www.w3.org/2000/01/rdf-schema#comment> "Lugar geográfico de misión de entidad geográfica variable."@es .
+# https://onto.digitalhumanities.digital/ZonaMision
+<https://onto.digitalhumanities.digital/ZonaMision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://onto.digitalhumanities.digital/ZonaMision> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://onto.digitalhumanities.digital/Lugar> .
+<https://onto.digitalhumanities.digital/ZonaMision> <http://www.w3.org/2000/01/rdf-schema#comment> "Lugar geográfico de misión de entidad geográfica variable."@es .
 # 
 # 
 # 
@@ -269,21 +269,21 @@
 # #################################################################
 # 
 # 
-# http://www.ejemplo.org/georeligion/Espanol
-<http://www.ejemplo.org/georeligion/Espanol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.ejemplo.org/georeligion/Espanol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ejemplo.org/georeligion/Lengua> .
+# https://onto.digitalhumanities.digital/Espanol
+<https://onto.digitalhumanities.digital/Espanol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://onto.digitalhumanities.digital/Espanol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://onto.digitalhumanities.digital/Lengua> .
 # 
-# http://www.ejemplo.org/georeligion/Frances
-<http://www.ejemplo.org/georeligion/Frances> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.ejemplo.org/georeligion/Frances> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ejemplo.org/georeligion/Lengua> .
+# https://onto.digitalhumanities.digital/Frances
+<https://onto.digitalhumanities.digital/Frances> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://onto.digitalhumanities.digital/Frances> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://onto.digitalhumanities.digital/Lengua> .
 # 
-# http://www.ejemplo.org/georeligion/Latin
-<http://www.ejemplo.org/georeligion/Latin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.ejemplo.org/georeligion/Latin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ejemplo.org/georeligion/Lengua> .
+# https://onto.digitalhumanities.digital/Latin
+<https://onto.digitalhumanities.digital/Latin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://onto.digitalhumanities.digital/Latin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://onto.digitalhumanities.digital/Lengua> .
 # 
-# http://www.ejemplo.org/georeligion/Maya
-<http://www.ejemplo.org/georeligion/Maya> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.ejemplo.org/georeligion/Maya> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ejemplo.org/georeligion/Lengua> .
+# https://onto.digitalhumanities.digital/Maya
+<https://onto.digitalhumanities.digital/Maya> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://onto.digitalhumanities.digital/Maya> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://onto.digitalhumanities.digital/Lengua> .
 # 
 # 
 # 
@@ -300,13 +300,13 @@ _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid4 .
 _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
 _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ejemplo.org/georeligion/ProvinciaOrden> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://onto.digitalhumanities.digital/ProvinciaOrden> .
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ejemplo.org/georeligion/OrdenReligiosa> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://onto.digitalhumanities.digital/OrdenReligiosa> .
 _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ejemplo.org/georeligion/Iglesia> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://onto.digitalhumanities.digital/Iglesia> .
 _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ejemplo.org/georeligion/CentroMision> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://onto.digitalhumanities.digital/CentroMision> .
 _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
@@ -314,11 +314,11 @@ _:genid6 <http://www.w3.org/2002/07/owl#members> _:genid9 .
 _:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
 _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
 _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ejemplo.org/georeligion/ZonaMision> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://onto.digitalhumanities.digital/ZonaMision> .
 _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ejemplo.org/georeligion/Convento> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://onto.digitalhumanities.digital/Convento> .
 _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ejemplo.org/georeligion/Ciudad> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://onto.digitalhumanities.digital/Ciudad> .
 _:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
@@ -328,15 +328,15 @@ _:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid13 .
 _:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
 _:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
 _:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ejemplo.org/georeligion/Persona> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://onto.digitalhumanities.digital/Persona> .
 _:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ejemplo.org/georeligion/ObjetoMaterial> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://onto.digitalhumanities.digital/ObjetoMaterial> .
 _:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ejemplo.org/georeligion/Lugar> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://onto.digitalhumanities.digital/Lugar> .
 _:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ejemplo.org/georeligion/Institucion> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://onto.digitalhumanities.digital/Institucion> .
 _:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ejemplo.org/georeligion/Evento> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://onto.digitalhumanities.digital/Evento> .
 _:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 # Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
