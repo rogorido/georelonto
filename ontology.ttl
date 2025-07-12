@@ -9,9 +9,10 @@
 <https://onto.digitalhumanities.digital> rdf:type owl:Ontology ;
                                           <http://purl.org/dc/terms/created> "\"2025-07-09+06:00\""^^xsd:dateTime ;
                                           <http://purl.org/dc/terms/creator> "Igor Sosa Mayor" ;
+                                          <http://purl.org/dc/terms/license> "Creative Commons Attribution 3.0 (CC BY 3.0)" ;
                                           <http://purl.org/dc/terms/title> "Ontology on religious orders in the Early modern period"@en ,
                                                                            "Ontología de órdenes religiosas en la Edad Moderna"@es ;
-                                          owl:versionInfo 0.1 .
+                                          owl:versionInfo 0.2 .
 
 #################################################################
 #    Annotation properties
@@ -23,6 +24,10 @@
 
 ###  http://purl.org/dc/terms/creator
 <http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/title

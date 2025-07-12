@@ -10,9 +10,10 @@
     <owl:Ontology rdf:about="https://onto.digitalhumanities.digital">
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">&quot;2025-07-09+06:00&quot;</terms:created>
         <terms:creator>Igor Sosa Mayor</terms:creator>
+        <terms:license>Creative Commons Attribution 3.0 (CC BY 3.0)</terms:license>
         <terms:title xml:lang="en">Ontology on religious orders in the Early modern period</terms:title>
         <terms:title xml:lang="es">Ontología de órdenes religiosas en la Edad Moderna</terms:title>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -40,6 +41,13 @@
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
     
 
 

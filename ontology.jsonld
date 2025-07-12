@@ -47,6 +47,9 @@
   "@id" : "http://purl.org/dc/terms/creator",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://purl.org/dc/terms/title",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -59,6 +62,9 @@
   "http://purl.org/dc/terms/creator" : [ {
     "@value" : "Igor Sosa Mayor"
   } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@value" : "Creative Commons Attribution 3.0 (CC BY 3.0)"
+  } ],
   "http://purl.org/dc/terms/title" : [ {
     "@language" : "en",
     "@value" : "Ontology on religious orders in the Early modern period"
@@ -68,7 +74,7 @@
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
-    "@value" : "0.1"
+    "@value" : "0.2"
   } ]
 }, {
   "@id" : "https://onto.digitalhumanities.digital/Abandonar",

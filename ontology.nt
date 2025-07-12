@@ -1,9 +1,10 @@
 <https://onto.digitalhumanities.digital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <https://onto.digitalhumanities.digital> <http://purl.org/dc/terms/created> "\"2025-07-09+06:00\""^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://onto.digitalhumanities.digital> <http://purl.org/dc/terms/creator> "Igor Sosa Mayor" .
+<https://onto.digitalhumanities.digital> <http://purl.org/dc/terms/license> "Creative Commons Attribution 3.0 (CC BY 3.0)" .
 <https://onto.digitalhumanities.digital> <http://purl.org/dc/terms/title> "Ontology on religious orders in the Early modern period"@en .
 <https://onto.digitalhumanities.digital> <http://purl.org/dc/terms/title> "Ontología de órdenes religiosas en la Edad Moderna"@es .
-<https://onto.digitalhumanities.digital> <http://www.w3.org/2002/07/owl#versionInfo> "0.1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://onto.digitalhumanities.digital> <http://www.w3.org/2002/07/owl#versionInfo> "0.2"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 # 
 # 
 # #################################################################
@@ -18,6 +19,9 @@
 # 
 # http://purl.org/dc/terms/creator
 <http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://purl.org/dc/terms/title
 <http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
